@@ -52,6 +52,7 @@ h1 { font-size: 3rem; line-height: 1.1; letter-spacing: -.01em; }
 
 .btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; height: 36px; padding: 2px 24px; border: .8px solid var(--divider); border-radius: 48px; background: transparent; color: var(--brown); font: 400 .9rem var(--font); text-decoration: none; cursor: pointer; transition: background-color .2s ease, border-color .2s ease; }
 .btn-outline:hover { background: rgba(98, 85, 67, .06); border-color: rgba(98, 85, 67, .45); }
+.btn-outline .gh { width: 16px; height: 16px; flex: none; }
 .btn-lg { height: auto; padding: .8em 2em; font-size: 1rem; }
 .btn-cream, .btn-brown { display: inline-flex; align-items: center; gap: .6rem; padding: .8em 2em; border-radius: var(--btn-radius); font: 400 1rem/1.5 var(--font); text-decoration: none; transition: transform .2s ease, background-color .2s ease; }
 .btn-cream { background: var(--cream); color: var(--brown); }
