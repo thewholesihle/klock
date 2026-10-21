@@ -1,5 +1,7 @@
 ﻿# Klock
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d95087e-d2eb-433d-be45-437da08ffc45" />
+
 A wordless analog clock screensaver for **Windows 10 (1809+) and Windows 11**. The whole screen is the dial: one
 tone with a fine paper grain, large numerals, embossed pill indices and slim pointed hands. GPU-rendered and
 vector-crisp, with day and night dials, glowing lume and no telemetry.
