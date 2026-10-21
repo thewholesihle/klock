@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://kloock.netlify.app/sitemap.xml

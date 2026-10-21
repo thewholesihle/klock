@@ -1,0 +1,13 @@
+# Klock
+
+> Klock is a free analog clock screensaver for Windows 10 (1809+) and Windows 11, on x64 and ARM64. The whole screen is the dial: 16 colours with matching night looks, 14 glowing lume colours, quartz, mechanical and smooth movements, four numeral typefaces, OLED burn-in protection, multi-monitor support and 10 languages. No telemetry.
+
+## Links
+- [Home page](https://kloock.netlify.app/): overview, live in-browser demo, FAQ
+- [Download and releases](https://github.com/thewholesihle/klock/releases/latest): x64 and ARM64 installers
+- [Source code and README](https://github.com/thewholesihle/klock): build instructions and architecture
+
+## Facts
+- Price: free (0.1 preview). Not code-signed yet, so Windows SmartScreen may ask to confirm.
+- Privacy: no telemetry or analytics; the only network request is an optional update check.
+- Movements: quartz (one tick per second), mechanical (swing and settle), smooth (continuous sweep).

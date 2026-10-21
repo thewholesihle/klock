@@ -106,7 +106,7 @@ h1 { font-size: 3rem; line-height: 1.1; letter-spacing: -.01em; }
 .num { display: inline-grid; place-items: center; width: 28px; height: 28px; border: 1px solid var(--brown); border-radius: 50%; font-size: .72rem; }
 .steps li { position: relative; padding-top: 0; }
 .steps li::before { content: ""; position: absolute; left: 0; right: 0; top: 40px; height: 1px; background: var(--divider); }
-.steps h4 { font-size: 1.4rem; line-height: 1.2; margin: 34px 0 .8rem; }
+.steps h3 { font-size: 1.4rem; line-height: 1.2; margin: 34px 0 .8rem; }
 .steps p { color: var(--brown-soft); }
 .how-cta { margin-top: 3rem; display: grid; gap: .9rem; justify-items: start; }
 .how-cta .btn-lg { justify-self: start; }
@@ -150,9 +150,20 @@ h1 { font-size: 3rem; line-height: 1.1; letter-spacing: -.01em; }
 .cols article + article { border-left: 1px solid var(--divider); }
 .cols article:first-child { padding-left: 0; }
 .cols article:last-child { padding-right: 0; }
-.cols h4 { font-size: 1.4rem; line-height: 1.2; }
+.cols h3 { font-size: 1.4rem; line-height: 1.2; }
 .cols p { color: var(--brown-soft); min-height: 4.5em; }
 .cols img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 2.2rem; margin-top: 1.4rem; }
+
+/* ---------- faq ---------- */
+.hero-sub { max-width: 30rem; color: var(--brown-soft); }
+.faq-list { max-width: 48rem; margin: 3rem auto 0; border-top: 1px solid var(--divider); }
+.faq details { border-bottom: 1px solid var(--divider); }
+.faq summary { list-style: none; cursor: pointer; padding: 1.2rem 2.5rem 1.2rem 0; font-size: 1.15rem; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: .3rem; top: 50%; translate: 0 -50%; font-size: 1.5rem; transition: rotate .2s; }
+.faq details[open] summary::after { rotate: 45deg; }
+.faq details p { padding: 0 2.5rem 1.4rem 0; color: var(--brown-soft); }
+.faq details a { text-decoration: underline; }
 
 /* ---------- download ---------- */
 .cta-sec { padding: clamp(4rem, 8vw, 7rem) var(--pad-x); display: grid; justify-items: center; gap: 1.4rem; text-align: center; }
@@ -167,7 +178,7 @@ h1 { font-size: 3rem; line-height: 1.1; letter-spacing: -.01em; }
 .foot-brand strong { display: block; font-weight: 400; margin-bottom: .2rem; }
 .foot-brand p { font-size: .9rem; max-width: 18rem; }
 .foot-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); }
-.foot-cols h5 { font-size: .9rem; margin-bottom: .9rem; }
+.foot-h { font-size: .9rem; margin-bottom: .9rem; }
 .foot-cols a { display: block; text-decoration: none; font-size: .9rem; padding: .22rem 0; color: var(--brown-soft); }
 .foot-cols a:hover { color: var(--brown); text-decoration: underline; }
 .foot-fine { grid-column: 1 / -1; font-size: .78rem; color: var(--brown-soft); max-width: 44rem; padding-top: 1.5rem; border-top: 1px solid var(--divider); }

@@ -35,6 +35,24 @@
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
 
+# HTML and crawler files: revalidate so edits go live quickly; preload hints for the first paint
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Link = "</fonts/Satoshi-Regular.otf>; rel=preload; as=font; type=font/otf; crossorigin"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/404.html"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
 # Installers: always download, never render, never cache stale builds
 [[headers]]
   for = "/downloads/*"

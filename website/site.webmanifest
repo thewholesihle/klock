@@ -1,0 +1,10 @@
+{
+  "name": "Klock",
+  "short_name": "Klock",
+  "description": "A wordless analog clock screensaver for Windows 10 and 11.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F9E2BD",
+  "theme_color": "#F9E2BD",
+  "icons": [{ "src": "favicon.ico", "sizes": "any", "type": "image/x-icon" }]
+}

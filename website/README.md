@@ -40,3 +40,16 @@ with film grain instead of concentric rings. The page stays light for everyone.
 * Body text uses Satoshi Regular; the clock numerals use Satoshi Black, Panchang, Clash Display and Melodrama.
 
 To preview locally: `python -m http.server 8099` inside this folder, then open <http://localhost:8099>.
+
+## SEO
+
+Everything lives in `index.html` and the root files. The site URL is `https://kloock.netlify.app`:
+if it changes, update it (canonical, `og:*`, `twitter:*`, JSON-LD, `sitemap.xml`, `robots.txt`, `llms.txt`).
+
+* Title, description, canonical, robots directives, full Open Graph and Twitter cards with an absolute `og:image`.
+* JSON-LD: `WebSite`, `SoftwareApplication` (OS, version, price, download URL, screenshots) and `FAQPage`
+  (mirrors the visible FAQ section; keep the two in sync).
+* One `h1`, then `h2` per section and `h3` for items; the keyword sentence sits under the `h1`.
+* `sitemap.xml` with image entries, `robots.txt` pointing to it, `site.webmanifest`, `llms.txt` for AI crawlers,
+  `noindex` on the 404 page, revalidating cache on the HTML.
+* After deploying, submit `sitemap.xml` in Google Search Console and Bing Webmaster Tools.
