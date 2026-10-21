@@ -8,7 +8,7 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 // The hero clock is fixed (a calm beige dial in Satoshi). The "try it" clock is the interactive one.
 const dial = id => DIALS.find(d => d.id === id);
 const lume = LUMES.find(l => l.id === 'bgw9');
-const heroState = { dial: dial('noir'), lume: LUMES.find(l => l.id === 'lime') ?? lume, font: 'satoshi', movement: 'quartz', night: 1, reduced };
+const heroState = { dial: dial('beige'), lume, font: 'satoshi', movement: 'quartz', night: 0, reduced };
 const state = { dial: dial('glacier'), lume, font: 'satoshi', movement: 'quartz', theme: 'day', night: 0, reduced };
 let progress = 0;      // linear day/night progress, eased into state.night (the app's ThemeFader)
 let dirty = true;
@@ -66,7 +66,7 @@ const sync = () => syncers.forEach(s => s());
 document.querySelectorAll('[data-night]').forEach(a => a.addEventListener('click', () => { state.theme = 'night'; sync(); }));
 
 // ---------------------------------------------------------------- page colour follows the section in view (Radial's signature)
-const colours = { dusk: '#101318', paper: '#F5F4EF', mist: '#D5DEE3', bone: '#E8E6DD' };
+const colours = { orange: '#F9E2BD', blue: '#C5D9F8', green: '#D3E6C7', purple: '#DDC8E2' };
 const zones = [...document.querySelectorAll('[data-bg]')];
 let tick = false;
 function pickPageColour() {

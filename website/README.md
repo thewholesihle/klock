@@ -24,10 +24,11 @@ security headers, long caching for fonts, and a 404 page.
 
 ## Design
 
-An original "lume" direction built around the product itself: a graphite hero with a glowing lime-lit dial and a
-minute-ruler along its foot, flat full-width bands, a bento feature grid, heavy Satoshi Black headlines, rectangular
-10 px-radius buttons and one accent colour (lume green `#C6F36B`). Palette: graphite `#101318`, paper `#F5F4EF`,
-bone `#E8E6DD`, mist `#D5DEE3`, ink `#171B21`. The page background eases between these bands as you scroll.
+Modelled on the design system of meetradial.com: warm cream sheets (`#FEFBED`) with very large radii floating on a
+pastel page colour that changes section by section (orange, blue, green, purple), brown ink (`#625543`), light
+Satoshi type, outlined pill buttons, hairline dividers, a floating nav pill under a marquee announcement bar, and a
+numbered three-step block. The hero is the one deliberate departure: a soft dawn mesh gradient (peach, rose, lilac)
+with film grain instead of concentric rings. The page stays light for everyone.
 
 ## How it works
 
