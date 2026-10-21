@@ -1,0 +1,303 @@
+<Window x:Class="Klock.Settings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Klock.Settings"
+        Title="Klock" Width="800" Height="940" MinWidth="560" MinHeight="600"
+        Background="{DynamicResource WindowBg}"
+        FontFamily="Segoe UI Variable Text, Segoe UI" FontSize="14"
+        UseLayoutRounding="True" TextOptions.TextFormattingMode="Ideal"
+        WindowStartupLocation="CenterScreen">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="36" GlassFrameThickness="-1" ResizeBorderThickness="6"
+                      UseAeroCaptionButtons="True" CornerRadius="0"/>
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="16,0,0,0">
+            <TextBlock Text="{local:T app.title}" FontSize="12.5" FontWeight="SemiBold" Foreground="{DynamicResource TextSecondary}"/>
+        </StackPanel>
+
+        <!-- Live preview (pinned: always visible while you change things) -->
+        <Border Grid.Row="1" Margin="24,2,24,14" MaxWidth="752" Height="270" CornerRadius="14" ClipToBounds="True"
+                Background="{DynamicResource PreviewBg}" BorderBrush="{DynamicResource CardBorder}" BorderThickness="1"
+                AutomationProperties.Name="{local:T preview.caption}">
+            <Border x:Name="PreviewSlot"/>
+        </Border>
+
+        <ScrollViewer x:Name="Scroller" Grid.Row="2" VerticalScrollBarVisibility="Auto" Focusable="False">
+            <StackPanel Margin="24,0,24,24" MaxWidth="752">
+
+                <!-- DIAL -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.dial}" Style="{StaticResource SectionTitle}"/>
+                        <TextBlock Text="{local:T section.dial.hint}" Style="{StaticResource Hint}" Margin="0,4,0,14"/>
+                        <ListBox Style="{StaticResource SwatchGrid}" ItemsSource="{Binding Dials}"
+                                 SelectedValue="{Binding DialId, Mode=TwoWay}"
+                                 AutomationProperties.Name="{local:T section.dial}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Width="78" AutomationProperties.Name="{Binding Name}">
+                                        <!-- the thumbnail is the full-bleed dial: clip it to a rounded tile -->
+                                        <Border Width="72" Height="72" CornerRadius="14" BorderBrush="{DynamicResource CardBorder}" BorderThickness="1">
+                                            <Border.Background>
+                                                <ImageBrush ImageSource="{Binding Thumb}"/>
+                                            </Border.Background>
+                                        </Border>
+                                        <TextBlock Text="{Binding Name}" FontSize="11.5" TextAlignment="Center" TextTrimming="CharacterEllipsis"
+                                                   Margin="0,4,0,0" Foreground="{DynamicResource TextSecondary}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </Border>
+
+                <!-- NUMERALS -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.numerals}" Style="{StaticResource SectionTitle}"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding NumeralChoices}"
+                                 SelectedValue="{Binding Numerals, Mode=TwoWay}" Margin="0,12,0,0"
+                                 AutomationProperties.Name="{local:T section.numerals}"/>
+                        <TextBlock Text="{local:T numerals.hint}" Style="{StaticResource Hint}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- THEME -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.theme}" Style="{StaticResource SectionTitle}"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding ThemeChoices}"
+                                 SelectedValue="{Binding Theme, Mode=TwoWay}" Margin="0,12,0,0"
+                                 AutomationProperties.Name="{local:T section.theme}"/>
+                        <TextBlock Text="{Binding ThemeHint}" Style="{StaticResource Hint}"/>
+
+                        <StackPanel Visibility="{Binding ShowSchedule, Converter={StaticResource BoolToVis}}" Margin="0,16,0,0">
+                            <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding ScheduleChoices}"
+                                     SelectedValue="{Binding Schedule, Mode=TwoWay}"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,14,0,0"
+                                        Visibility="{Binding ShowCustomTimes, Converter={StaticResource BoolToVis}}">
+                                <StackPanel Margin="0,0,16,0">
+                                    <TextBlock Text="{local:T schedule.nightStarts}" Style="{StaticResource FieldLabel}"/>
+                                    <TextBox Width="110" Text="{Binding NightStart, UpdateSourceTrigger=LostFocus}"
+                                             AutomationProperties.Name="{local:T schedule.nightStarts}"/>
+                                </StackPanel>
+                                <StackPanel>
+                                    <TextBlock Text="{local:T schedule.nightEnds}" Style="{StaticResource FieldLabel}"/>
+                                    <TextBox Width="110" Text="{Binding NightEnd, UpdateSourceTrigger=LostFocus}"
+                                             AutomationProperties.Name="{local:T schedule.nightEnds}"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Margin="0,14,0,0" Visibility="{Binding ShowSolar, Converter={StaticResource BoolToVis}}">
+                                <StackPanel Orientation="Horizontal">
+                                    <StackPanel Margin="0,0,16,0">
+                                        <TextBlock Text="{local:T schedule.latitude}" Style="{StaticResource FieldLabel}"/>
+                                        <TextBox Width="130" Text="{Binding Latitude, UpdateSourceTrigger=LostFocus}"
+                                                 AutomationProperties.Name="{local:T schedule.latitude}"/>
+                                    </StackPanel>
+                                    <StackPanel>
+                                        <TextBlock Text="{local:T schedule.longitude}" Style="{StaticResource FieldLabel}"/>
+                                        <TextBox Width="130" Text="{Binding Longitude, UpdateSourceTrigger=LostFocus}"
+                                                 AutomationProperties.Name="{local:T schedule.longitude}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Text="{local:T schedule.solar.hint}" Style="{StaticResource Hint}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- NIGHT LUME -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.lume}" Style="{StaticResource SectionTitle}"/>
+                        <TextBlock Text="{local:T section.lume.hint}" Style="{StaticResource Hint}" Margin="0,4,0,14"/>
+                        <ListBox Style="{StaticResource SwatchGrid}" ItemsSource="{Binding Lumes}"
+                                 SelectedValue="{Binding LumeId, Mode=TwoWay}"
+                                 AutomationProperties.Name="{local:T section.lume}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Width="64" AutomationProperties.Name="{Binding Name}">
+                                        <Border Width="56" Height="56" CornerRadius="12" Background="#0C0D10">
+                                            <Grid>
+                                                <!-- a glowing index bar with a soft halo -->
+                                                <Border Width="9" Height="30" CornerRadius="4.5" Background="{Binding Brush}">
+                                                    <Border.Effect>
+                                                        <DropShadowEffect Color="{Binding Color}" BlurRadius="14" ShadowDepth="0" Opacity="0.95"/>
+                                                    </Border.Effect>
+                                                </Border>
+                                            </Grid>
+                                        </Border>
+                                        <TextBlock Text="{Binding Name}" FontSize="11" TextAlignment="Center" TextTrimming="CharacterEllipsis"
+                                                   Margin="0,4,0,0" Foreground="{DynamicResource TextSecondary}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </Border>
+
+                <!-- MOVEMENT + SIZE -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.movement}" Style="{StaticResource SectionTitle}"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding MovementChoices}"
+                                 SelectedValue="{Binding Movement, Mode=TwoWay}" Margin="0,12,0,0"
+                                 AutomationProperties.Name="{local:T section.movement}"/>
+                        <TextBlock Text="{Binding MovementHint}" Style="{StaticResource Hint}"/>
+
+                        <TextBlock Text="{local:T section.size}" Style="{StaticResource SectionTitle}" Margin="0,22,0,0"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding SizeChoices}"
+                                 SelectedValue="{Binding Size, Mode=TwoWay}" Margin="0,12,0,0"
+                                 AutomationProperties.Name="{local:T section.size}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- DISPLAY -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.display}" Style="{StaticResource SectionTitle}"/>
+                        <TextBlock Text="{local:T display.monitors}" Style="{StaticResource FieldLabel}" Margin="0,12,0,6"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding MonitorModeChoices}"
+                                 SelectedValue="{Binding MonitorMode, Mode=TwoWay}"
+                                 AutomationProperties.Name="{local:T display.monitors}"/>
+
+                        <ItemsControl ItemsSource="{Binding Monitors}" Margin="0,14,0,0">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Background="{DynamicResource FieldBg}" CornerRadius="10" Padding="14,10" Margin="0,0,0,8">
+                                        <StackPanel>
+                                            <Grid>
+                                                <TextBlock Text="{Binding Title}" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                                <CheckBox HorizontalAlignment="Right" IsChecked="{Binding Enabled, Mode=TwoWay}"
+                                                          Visibility="{Binding DataContext.ShowMonitorChecks, RelativeSource={RelativeSource AncestorType=ItemsControl}, Converter={StaticResource BoolToVis}}"
+                                                          AutomationProperties.Name="{Binding Title}"/>
+                                            </Grid>
+                                            <Grid Margin="0,8,0,0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="96"/><ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="16"/><ColumnDefinition Width="96"/><ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="{local:T display.offsetX}" Style="{StaticResource Hint}" VerticalAlignment="Center" Margin="0"/>
+                                                <Slider Grid.Column="1" Minimum="-15" Maximum="15" SmallChange="0.5" LargeChange="2"
+                                                        Value="{Binding OffsetXPercent, Mode=TwoWay}"
+                                                        AutomationProperties.Name="{local:T display.offsetX}"/>
+                                                <TextBlock Grid.Column="3" Text="{local:T display.offsetY}" Style="{StaticResource Hint}" VerticalAlignment="Center" Margin="0"/>
+                                                <Slider Grid.Column="4" Minimum="-15" Maximum="15" SmallChange="0.5" LargeChange="2"
+                                                        Value="{Binding OffsetYPercent, Mode=TwoWay}"
+                                                        AutomationProperties.Name="{local:T display.offsetY}"/>
+                                                <Button Grid.Column="5" Content="{local:T display.reset}" Margin="12,0,0,0" Padding="10,4"
+                                                        Command="{Binding DataContext.ResetOffsetCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                                                        CommandParameter="{Binding}"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                        <TextBlock Text="{local:T display.background}" Style="{StaticResource FieldLabel}" Margin="0,14,0,8"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding BackgroundModeChoices}"
+                                 SelectedValue="{Binding BackgroundMode, Mode=TwoWay}" Margin="0,0,0,10"
+                                 AutomationProperties.Name="{local:T display.background}"/>
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding ShowCustomBackground, Converter={StaticResource BoolToVis}}">
+                            <ListBox Style="{StaticResource SwatchGrid}" ItemsSource="{Binding Backgrounds}"
+                                     SelectedValue="{Binding BackgroundHex, Mode=TwoWay}" VerticalAlignment="Center"
+                                     AutomationProperties.Name="{local:T display.background}">
+                                <ListBox.ItemsPanel><ItemsPanelTemplate><StackPanel Orientation="Horizontal"/></ItemsPanelTemplate></ListBox.ItemsPanel>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Width="34" Height="34" CornerRadius="17" Background="{Binding Brush}"
+                                                BorderBrush="{DynamicResource FieldBorder}" BorderThickness="1"
+                                                AutomationProperties.Name="{Binding Id}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            <TextBox Width="110" Margin="8,0,0,10" VerticalAlignment="Center"
+                                     Text="{Binding BackgroundHex, UpdateSourceTrigger=LostFocus}"
+                                     AutomationProperties.Name="{local:T display.background}"/>
+                        </StackPanel>
+                        <TextBlock Text="{local:T display.background.hint}" Style="{StaticResource Hint}" Margin="0"
+                                   Visibility="{Binding ShowCustomBackground, Converter={StaticResource BoolToVis}}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- PERFORMANCE -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.performance}" Style="{StaticResource SectionTitle}"/>
+                        <TextBlock Text="{local:T perf.fps}" Style="{StaticResource FieldLabel}" Margin="0,12,0,6"/>
+                        <ComboBox ItemsSource="{Binding FpsChoices}" SelectedValue="{Binding FpsCap, Mode=TwoWay}"
+                                  AutomationProperties.Name="{local:T perf.fps}"/>
+                        <CheckBox Content="{local:T perf.battery}" IsChecked="{Binding ReduceOnBattery, Mode=TwoWay}" Margin="0,16,0,0"/>
+                        <StackPanel Margin="0,12,0,0" IsEnabled="{Binding ReduceOnBattery}">
+                            <TextBlock Text="{local:T perf.batteryFps}" Style="{StaticResource FieldLabel}"/>
+                            <ComboBox ItemsSource="{Binding BatteryFpsChoices}" SelectedValue="{Binding BatteryFpsCap, Mode=TwoWay}"
+                                      AutomationProperties.Name="{local:T perf.batteryFps}"/>
+                        </StackPanel>
+                        <TextBlock Text="{local:T perf.gpu}" Style="{StaticResource FieldLabel}" Margin="0,16,0,6"/>
+                        <ComboBox ItemsSource="{Binding GpuChoices}" SelectedValue="{Binding GpuAdapter, Mode=TwoWay}"
+                                  MinWidth="320" AutomationProperties.Name="{local:T perf.gpu}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- BURN-IN -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.burnin}" Style="{StaticResource SectionTitle}"/>
+                        <ListBox Style="{StaticResource Segmented}" ItemsSource="{Binding BurnInChoices}"
+                                 SelectedValue="{Binding BurnIn, Mode=TwoWay}" Margin="0,12,0,0"
+                                 AutomationProperties.Name="{local:T section.burnin}"/>
+                        <TextBlock Text="{local:T burnin.note}" Style="{StaticResource Hint}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- SOUND -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.sound}" Style="{StaticResource SectionTitle}"/>
+                        <CheckBox Content="{local:T sound.tick}" IsChecked="{Binding TickSound, Mode=TwoWay}" Margin="0,12,0,0"/>
+                        <TextBlock Text="{local:T sound.hint}" Style="{StaticResource Hint}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- LANGUAGE -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.language}" Style="{StaticResource SectionTitle}"/>
+                        <ComboBox ItemsSource="{Binding LanguageChoices}" SelectedValue="{Binding Language, Mode=TwoWay}"
+                                  Margin="0,12,0,0" AutomationProperties.Name="{local:T section.language}"/>
+                        <TextBlock Text="{local:T language.hint}" Style="{StaticResource Hint}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- ABOUT -->
+                <Border Style="{StaticResource Card}">
+                    <StackPanel>
+                        <TextBlock Text="{local:T section.about}" Style="{StaticResource SectionTitle}"/>
+                        <TextBlock Text="{Binding VersionText}" Style="{StaticResource Hint}" Margin="0,8,0,0"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,14,0,0">
+                            <Button Content="{local:T about.update}" Command="{Binding CheckUpdateCommand}"/>
+                            <Button Content="{local:T about.update.download}" Command="{Binding OpenUpdateCommand}" Margin="10,0,0,0"
+                                    Style="{StaticResource AccentButton}"
+                                    Visibility="{Binding UpdateAvailable, Converter={StaticResource BoolToVis}}"/>
+                            <Button Content="{local:T about.support}" Command="{Binding SupportCommand}" Margin="10,0,0,0"/>
+                        </StackPanel>
+                        <TextBlock Text="{Binding UpdateStatus}" Style="{StaticResource Hint}" AutomationProperties.LiveSetting="Polite"/>
+
+                        <TextBlock Text="{local:T about.privacy}" Style="{StaticResource Hint}" Margin="0,16,0,0"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

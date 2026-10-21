@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="app.title" xml:space="preserve"><value>Klock</value></data>
+  <data name="app.subtitle" xml:space="preserve"><value>言葉のないアナログ時計を、あなたの画面に</value></data>
+  <data name="preview.caption" xml:space="preserve"><value>ライブプレビュー</value></data>
+  <data name="section.dial" xml:space="preserve"><value>文字盤</value></data>
+  <data name="section.dial.hint" xml:space="preserve"><value>丁寧に調整した16色。それぞれに対応する夜の表情があります。</value></data>
+  <data name="section.theme" xml:space="preserve"><value>テーマ</value></data>
+  <data name="section.lume" xml:space="preserve"><value>夜光</value></data>
+  <data name="section.lume.hint" xml:space="preserve"><value>暗くなったとき、針とインデックスが光る色です。</value></data>
+  <data name="section.movement" xml:space="preserve"><value>ムーブメント</value></data>
+  <data name="section.size" xml:space="preserve"><value>サイズ</value></data>
+  <data name="section.display" xml:space="preserve"><value>ディスプレイ</value></data>
+  <data name="section.performance" xml:space="preserve"><value>パフォーマンス</value></data>
+  <data name="section.burnin" xml:space="preserve"><value>焼き付き防止</value></data>
+  <data name="section.sound" xml:space="preserve"><value>サウンド</value></data>
+  <data name="section.language" xml:space="preserve"><value>言語</value></data>
+  <data name="section.about" xml:space="preserve"><value>情報</value></data>
+  <data name="theme.auto" xml:space="preserve"><value>自動</value></data>
+  <data name="theme.day" xml:space="preserve"><value>昼</value></data>
+  <data name="theme.night" xml:space="preserve"><value>夜</value></data>
+  <data name="theme.schedule" xml:space="preserve"><value>スケジュール</value></data>
+  <data name="theme.auto.hint" xml:space="preserve"><value>Windows のアプリモードに合わせ、切り替わるときはなめらかに移ります。</value></data>
+  <data name="theme.day.hint" xml:space="preserve"><value>常にフルカラーの昼の文字盤です。</value></data>
+  <data name="theme.night.hint" xml:space="preserve"><value>常に暗めの文字盤と光る夜光です。</value></data>
+  <data name="theme.schedule.hint" xml:space="preserve"><value>設定した時刻に昼と夜を切り替えます。</value></data>
+  <data name="schedule.kind.custom" xml:space="preserve"><value>時刻を指定</value></data>
+  <data name="schedule.kind.solar" xml:space="preserve"><value>日の出と日の入り</value></data>
+  <data name="schedule.nightStarts" xml:space="preserve"><value>夜の開始</value></data>
+  <data name="schedule.nightEnds" xml:space="preserve"><value>夜の終了</value></data>
+  <data name="schedule.latitude" xml:space="preserve"><value>緯度</value></data>
+  <data name="schedule.longitude" xml:space="preserve"><value>経度</value></data>
+  <data name="schedule.solar.hint" xml:space="preserve"><value>座標を入力してください。夜は日の入りから日の出までです。座標がない場合は指定した時刻を使います。</value></data>
+  <data name="movement.quartz" xml:space="preserve"><value>クォーツ</value></data>
+  <data name="movement.mechanical" xml:space="preserve"><value>機械式</value></data>
+  <data name="movement.digital" xml:space="preserve"><value>スムーズ</value></data>
+  <data name="movement.quartz.hint" xml:space="preserve"><value>1秒に1回進み、本物のクォーツの秒針のようにわずかに行き過ぎてから戻ります。</value></data>
+  <data name="movement.mechanical.hint" xml:space="preserve"><value>1秒に4拍。軽やかで繊細な動きです。</value></data>
+  <data name="movement.digital.hint" xml:space="preserve"><value>途切れのない、完全に連続した動きです。</value></data>
+  <data name="size.classic" xml:space="preserve"><value>クラシック</value></data>
+  <data name="size.compact" xml:space="preserve"><value>コンパクト</value></data>
+  <data name="display.monitors" xml:space="preserve"><value>時計を表示する場所</value></data>
+  <data name="display.all" xml:space="preserve"><value>すべてのディスプレイ</value></data>
+  <data name="display.primary" xml:space="preserve"><value>メインのみ</value></data>
+  <data name="display.selected" xml:space="preserve"><value>選択</value></data>
+  <data name="display.displayN" xml:space="preserve"><value>ディスプレイ {0}</value></data>
+  <data name="display.primarySuffix" xml:space="preserve"><value>（メイン）</value></data>
+  <data name="display.background" xml:space="preserve"><value>背景</value></data>
+  <data name="display.background.black" xml:space="preserve"><value>ブラック</value></data>
+  <data name="display.background.hint" xml:space="preserve"><value>OLED には純粋な黒が最適です。</value></data>
+  <data name="display.offset" xml:space="preserve"><value>位置</value></data>
+  <data name="display.offsetX" xml:space="preserve"><value>水平</value></data>
+  <data name="display.offsetY" xml:space="preserve"><value>垂直</value></data>
+  <data name="display.reset" xml:space="preserve"><value>リセット</value></data>
+  <data name="perf.fps" xml:space="preserve"><value>フレームレート上限</value></data>
+  <data name="perf.fps.auto" xml:space="preserve"><value>ディスプレイに合わせる</value></data>
+  <data name="perf.fps.value" xml:space="preserve"><value>{0} fps</value></data>
+  <data name="perf.battery" xml:space="preserve"><value>バッテリー駆動時にフレームレートを下げる</value></data>
+  <data name="perf.batteryFps" xml:space="preserve"><value>バッテリー時の上限</value></data>
+  <data name="perf.gpu" xml:space="preserve"><value>グラフィックスアダプター</value></data>
+  <data name="perf.gpu.auto" xml:space="preserve"><value>自動</value></data>
+  <data name="burnin.off" xml:space="preserve"><value>オフ</value></data>
+  <data name="burnin.standard" xml:space="preserve"><value>標準</value></data>
+  <data name="burnin.extended" xml:space="preserve"><value>強化</value></data>
+  <data name="burnin.note" xml:space="preserve"><value>時計は気づかない程度に少しずつ動き、ハイライトもゆっくり呼吸するように変化します。OLED やミニ LED の保護に役立ちます。ディスプレイ自体の設定はお客様の責任となります。</value></data>
+  <data name="sound.tick" xml:space="preserve"><value>小さなチクタク音を鳴らす（クォーツ／機械式）</value></data>
+  <data name="sound.hint" xml:space="preserve"><value>既定ではオフです。指定しない限り、スクリーンセーバーは無音です。</value></data>
+  <data name="language.auto" xml:space="preserve"><value>システムの言語</value></data>
+  <data name="language.hint" xml:space="preserve"><value>翻訳されるのはこの設定画面のみです。時計そのものに文字はありません。</value></data>
+  <data name="about.version" xml:space="preserve"><value>バージョン {0}</value></data>
+  <data name="about.update" xml:space="preserve"><value>更新を確認</value></data>
+  <data name="about.update.checking" xml:space="preserve"><value>確認中…</value></data>
+  <data name="about.update.latest" xml:space="preserve"><value>最新の状態です。</value></data>
+  <data name="about.update.available" xml:space="preserve"><value>バージョン {0} が利用できます。</value></data>
+  <data name="about.update.download" xml:space="preserve"><value>ダウンロード</value></data>
+  <data name="about.update.failed" xml:space="preserve"><value>現在、更新を確認できません。</value></data>
+  <data name="about.support" xml:space="preserve"><value>サポート</value></data>
+  <data name="about.privacy" xml:space="preserve"><value>テレメトリーはありません。更新の確認では小さな公開ファイルを取得するだけで、あなたに関する情報は送信しません。</value></data>
+  <data name="common.close" xml:space="preserve"><value>閉じる</value></data>
+  <data name="dial.white" xml:space="preserve"><value>ホワイト</value></data>
+  <data name="dial.turquoise" xml:space="preserve"><value>ターコイズ</value></data>
+  <data name="dial.glacier" xml:space="preserve"><value>グレイシャー</value></data>
+  <data name="dial.ocean" xml:space="preserve"><value>オーシャン</value></data>
+  <data name="dial.tennis" xml:space="preserve"><value>テニス</value></data>
+  <data name="dial.signal-blue" xml:space="preserve"><value>シグナルブルー</value></data>
+  <data name="dial.salmon" xml:space="preserve"><value>サーモン</value></data>
+  <data name="dial.yellow" xml:space="preserve"><value>イエロー</value></data>
+  <data name="dial.beige" xml:space="preserve"><value>ベージュ</value></data>
+  <data name="dial.pistachio" xml:space="preserve"><value>ピスタチオ</value></data>
+  <data name="dial.lavender" xml:space="preserve"><value>ラベンダー</value></data>
+  <data name="dial.rose" xml:space="preserve"><value>ローズ</value></data>
+  <data name="dial.sky-blue" xml:space="preserve"><value>スカイブルー</value></data>
+  <data name="dial.cream" xml:space="preserve"><value>クリーム</value></data>
+  <data name="dial.slate" xml:space="preserve"><value>スレート</value></data>
+  <data name="dial.noir" xml:space="preserve"><value>ノワール</value></data>
+  <data name="lume.red" xml:space="preserve"><value>レッド</value></data>
+  <data name="lume.amber" xml:space="preserve"><value>アンバー</value></data>
+  <data name="lume.lavender" xml:space="preserve"><value>ラベンダー</value></data>
+  <data name="lume.rose" xml:space="preserve"><value>ローズ</value></data>
+  <data name="lume.seafoam" xml:space="preserve"><value>シーフォーム</value></data>
+  <data name="lume.sky" xml:space="preserve"><value>スカイ</value></data>
+  <data name="lume.bgw9" xml:space="preserve"><value>BGW9</value></data>
+  <data name="lume.peach" xml:space="preserve"><value>ピーチ</value></data>
+  <data name="lume.tritium" xml:space="preserve"><value>トリチウムグリーン</value></data>
+  <data name="lume.aqua" xml:space="preserve"><value>アクア</value></data>
+  <data name="lume.yellow" xml:space="preserve"><value>イエロー</value></data>
+  <data name="lume.lime" xml:space="preserve"><value>ライム</value></data>
+  <data name="lume.ice-blue" xml:space="preserve"><value>アイスブルー</value></data>
+  <data name="lume.white" xml:space="preserve"><value>ホワイト</value></data>
+  <data name="display.background.match" xml:space="preserve"><value>文字盤に合わせる</value></data>
+  <data name="display.background.custom" xml:space="preserve"><value>カスタムカラー</value></data>
+  <data name="section.numerals" xml:space="preserve"><value>数字</value></data>
+  <data name="numerals.hint" xml:space="preserve"><value>時と分の数字に使う書体です。</value></data>
+  <data name="font.panchang" xml:space="preserve"><value>Panchang</value></data>
+  <data name="font.clashdisplay" xml:space="preserve"><value>Clash Display</value></data>
+  <data name="font.satoshi" xml:space="preserve"><value>Satoshi</value></data>
+  <data name="font.melodrama" xml:space="preserve"><value>Melodrama</value></data>
+  <data name="font.klock" xml:space="preserve"><value>Klock</value></data>
+</root>

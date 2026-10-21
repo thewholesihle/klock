@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9A0F0FA-92D6-464F-863F-BB25C103699A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klock.Core", "src\Klock.Core\Klock.Core.csproj", "{77FBC0A0-8260-4255-B49D-D3BD4376770B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klock.Renderer", "src\Klock.Renderer\Klock.Renderer.csproj", "{03509A64-A67A-4B1B-98AD-B282C44B7C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klock.Screensaver", "src\Klock.Screensaver\Klock.Screensaver.csproj", "{056FFD0D-2338-4B43-A3D6-D5087854828F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CC542E33-8B85-4DAA-A9FC-1D9F8BACE5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klock.Tests", "tests\Klock.Tests\Klock.Tests.csproj", "{3AC77911-4C7C-418A-93D4-3A46B164EEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klock.Settings", "src\Klock.Settings\Klock.Settings.csproj", "{90E3C0CC-DD1E-406C-9EAE-08136C3CB6AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FBC0A0-8260-4255-B49D-D3BD4376770B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FBC0A0-8260-4255-B49D-D3BD4376770B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FBC0A0-8260-4255-B49D-D3BD4376770B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FBC0A0-8260-4255-B49D-D3BD4376770B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03509A64-A67A-4B1B-98AD-B282C44B7C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03509A64-A67A-4B1B-98AD-B282C44B7C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03509A64-A67A-4B1B-98AD-B282C44B7C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03509A64-A67A-4B1B-98AD-B282C44B7C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056FFD0D-2338-4B43-A3D6-D5087854828F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056FFD0D-2338-4B43-A3D6-D5087854828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056FFD0D-2338-4B43-A3D6-D5087854828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056FFD0D-2338-4B43-A3D6-D5087854828F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC77911-4C7C-418A-93D4-3A46B164EEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC77911-4C7C-418A-93D4-3A46B164EEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC77911-4C7C-418A-93D4-3A46B164EEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC77911-4C7C-418A-93D4-3A46B164EEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E3C0CC-DD1E-406C-9EAE-08136C3CB6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E3C0CC-DD1E-406C-9EAE-08136C3CB6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E3C0CC-DD1E-406C-9EAE-08136C3CB6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E3C0CC-DD1E-406C-9EAE-08136C3CB6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77FBC0A0-8260-4255-B49D-D3BD4376770B} = {D9A0F0FA-92D6-464F-863F-BB25C103699A}
+		{03509A64-A67A-4B1B-98AD-B282C44B7C83} = {D9A0F0FA-92D6-464F-863F-BB25C103699A}
+		{056FFD0D-2338-4B43-A3D6-D5087854828F} = {D9A0F0FA-92D6-464F-863F-BB25C103699A}
+		{3AC77911-4C7C-418A-93D4-3A46B164EEA4} = {CC542E33-8B85-4DAA-A9FC-1D9F8BACE5A6}
+		{90E3C0CC-DD1E-406C-9EAE-08136C3CB6AB} = {D9A0F0FA-92D6-464F-863F-BB25C103699A}
+	EndGlobalSection
+EndGlobal

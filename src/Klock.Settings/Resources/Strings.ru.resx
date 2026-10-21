@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="app.title" xml:space="preserve"><value>Klock</value></data>
+  <data name="app.subtitle" xml:space="preserve"><value>Аналоговые часы без слов для вашего экрана</value></data>
+  <data name="preview.caption" xml:space="preserve"><value>Предпросмотр в реальном времени</value></data>
+  <data name="section.dial" xml:space="preserve"><value>Циферблат</value></data>
+  <data name="section.dial.hint" xml:space="preserve"><value>Шестнадцать тщательно подобранных цветов, у каждого есть свой ночной вариант.</value></data>
+  <data name="section.theme" xml:space="preserve"><value>Тема</value></data>
+  <data name="section.lume" xml:space="preserve"><value>Ночная люминесценция</value></data>
+  <data name="section.lume.hint" xml:space="preserve"><value>Цвет, которым светятся стрелки и индексы в темноте.</value></data>
+  <data name="section.movement" xml:space="preserve"><value>Механизм</value></data>
+  <data name="section.size" xml:space="preserve"><value>Размер</value></data>
+  <data name="section.display" xml:space="preserve"><value>Дисплей</value></data>
+  <data name="section.performance" xml:space="preserve"><value>Производительность</value></data>
+  <data name="section.burnin" xml:space="preserve"><value>Защита от выгорания</value></data>
+  <data name="section.sound" xml:space="preserve"><value>Звук</value></data>
+  <data name="section.language" xml:space="preserve"><value>Язык</value></data>
+  <data name="section.about" xml:space="preserve"><value>О программе</value></data>
+  <data name="theme.auto" xml:space="preserve"><value>Авто</value></data>
+  <data name="theme.day" xml:space="preserve"><value>День</value></data>
+  <data name="theme.night" xml:space="preserve"><value>Ночь</value></data>
+  <data name="theme.schedule" xml:space="preserve"><value>По расписанию</value></data>
+  <data name="theme.auto.hint" xml:space="preserve"><value>Следует режиму приложений Windows и плавно переключается при его смене.</value></data>
+  <data name="theme.day.hint" xml:space="preserve"><value>Всегда цветной дневной циферблат.</value></data>
+  <data name="theme.night.hint" xml:space="preserve"><value>Всегда приглушённый циферблат со светящейся люминесценцией.</value></data>
+  <data name="theme.schedule.hint" xml:space="preserve"><value>Переключается между днём и ночью в заданное время.</value></data>
+  <data name="schedule.kind.custom" xml:space="preserve"><value>Своё время</value></data>
+  <data name="schedule.kind.solar" xml:space="preserve"><value>Восход и закат</value></data>
+  <data name="schedule.nightStarts" xml:space="preserve"><value>Начало ночи</value></data>
+  <data name="schedule.nightEnds" xml:space="preserve"><value>Конец ночи</value></data>
+  <data name="schedule.latitude" xml:space="preserve"><value>Широта</value></data>
+  <data name="schedule.longitude" xml:space="preserve"><value>Долгота</value></data>
+  <data name="schedule.solar.hint" xml:space="preserve"><value>Введите свои координаты. Ночь длится от заката до восхода. Без координат используется заданное время.</value></data>
+  <data name="movement.quartz" xml:space="preserve"><value>Кварц</value></data>
+  <data name="movement.mechanical" xml:space="preserve"><value>Механика</value></data>
+  <data name="movement.digital" xml:space="preserve"><value>Плавный</value></data>
+  <data name="movement.quartz.hint" xml:space="preserve"><value>Тикает раз в секунду с лёгким перелётом, как настоящая кварцевая секундная стрелка.</value></data>
+  <data name="movement.mechanical.hint" xml:space="preserve"><value>Четыре удара в секунду: живой и в то же время тонкий ход.</value></data>
+  <data name="movement.digital.hint" xml:space="preserve"><value>Абсолютно непрерывный ход без рывков.</value></data>
+  <data name="size.classic" xml:space="preserve"><value>Классический</value></data>
+  <data name="size.compact" xml:space="preserve"><value>Компактный</value></data>
+  <data name="display.monitors" xml:space="preserve"><value>Показывать часы на</value></data>
+  <data name="display.all" xml:space="preserve"><value>Всех дисплеях</value></data>
+  <data name="display.primary" xml:space="preserve"><value>Только на основном</value></data>
+  <data name="display.selected" xml:space="preserve"><value>Выбранных</value></data>
+  <data name="display.displayN" xml:space="preserve"><value>Дисплей {0}</value></data>
+  <data name="display.primarySuffix" xml:space="preserve"><value> (основной)</value></data>
+  <data name="display.background" xml:space="preserve"><value>Фон</value></data>
+  <data name="display.background.black" xml:space="preserve"><value>Чёрный</value></data>
+  <data name="display.background.hint" xml:space="preserve"><value>Чистый чёрный лучше всего подходит для OLED-экранов.</value></data>
+  <data name="display.offset" xml:space="preserve"><value>Положение</value></data>
+  <data name="display.offsetX" xml:space="preserve"><value>По горизонтали</value></data>
+  <data name="display.offsetY" xml:space="preserve"><value>По вертикали</value></data>
+  <data name="display.reset" xml:space="preserve"><value>Сбросить</value></data>
+  <data name="perf.fps" xml:space="preserve"><value>Ограничение частоты кадров</value></data>
+  <data name="perf.fps.auto" xml:space="preserve"><value>По дисплею</value></data>
+  <data name="perf.fps.value" xml:space="preserve"><value>{0} кадр/с</value></data>
+  <data name="perf.battery" xml:space="preserve"><value>Снижать частоту кадров при работе от батареи</value></data>
+  <data name="perf.batteryFps" xml:space="preserve"><value>Предел при работе от батареи</value></data>
+  <data name="perf.gpu" xml:space="preserve"><value>Графический адаптер</value></data>
+  <data name="perf.gpu.auto" xml:space="preserve"><value>Автоматически</value></data>
+  <data name="burnin.off" xml:space="preserve"><value>Выкл.</value></data>
+  <data name="burnin.standard" xml:space="preserve"><value>Стандартная</value></data>
+  <data name="burnin.extended" xml:space="preserve"><value>Усиленная</value></data>
+  <data name="burnin.note" xml:space="preserve"><value>Часы незаметно смещаются, а блики медленно «дышат», что помогает защитить OLED- и mini-LED-панели. Настройки самого дисплея остаются на вашей ответственности.</value></data>
+  <data name="sound.tick" xml:space="preserve"><value>Воспроизводить тихое тиканье (кварц и механика)</value></data>
+  <data name="sound.hint" xml:space="preserve"><value>По умолчанию выключено. Заставки молчат, если вы не попросите иначе.</value></data>
+  <data name="language.auto" xml:space="preserve"><value>Язык системы</value></data>
+  <data name="language.hint" xml:space="preserve"><value>Переведены только эти настройки. На самих часах нет слов.</value></data>
+  <data name="about.version" xml:space="preserve"><value>Версия {0}</value></data>
+  <data name="about.update" xml:space="preserve"><value>Проверить обновления</value></data>
+  <data name="about.update.checking" xml:space="preserve"><value>Проверка…</value></data>
+  <data name="about.update.latest" xml:space="preserve"><value>У вас последняя версия.</value></data>
+  <data name="about.update.available" xml:space="preserve"><value>Доступна версия {0}.</value></data>
+  <data name="about.update.download" xml:space="preserve"><value>Скачать</value></data>
+  <data name="about.update.failed" xml:space="preserve"><value>Сейчас не удалось проверить обновления.</value></data>
+  <data name="about.support" xml:space="preserve"><value>Поддержка</value></data>
+  <data name="about.privacy" xml:space="preserve"><value>Никакой телеметрии. При проверке обновлений загружается один небольшой общедоступный файл, и ничего о вас не отправляется.</value></data>
+  <data name="common.close" xml:space="preserve"><value>Закрыть</value></data>
+  <data name="dial.white" xml:space="preserve"><value>Белый</value></data>
+  <data name="dial.turquoise" xml:space="preserve"><value>Бирюзовый</value></data>
+  <data name="dial.glacier" xml:space="preserve"><value>Ледник</value></data>
+  <data name="dial.ocean" xml:space="preserve"><value>Океан</value></data>
+  <data name="dial.tennis" xml:space="preserve"><value>Теннис</value></data>
+  <data name="dial.signal-blue" xml:space="preserve"><value>Сигнальный синий</value></data>
+  <data name="dial.salmon" xml:space="preserve"><value>Лососевый</value></data>
+  <data name="dial.yellow" xml:space="preserve"><value>Жёлтый</value></data>
+  <data name="dial.beige" xml:space="preserve"><value>Бежевый</value></data>
+  <data name="dial.pistachio" xml:space="preserve"><value>Фисташковый</value></data>
+  <data name="dial.lavender" xml:space="preserve"><value>Лавандовый</value></data>
+  <data name="dial.rose" xml:space="preserve"><value>Розовый</value></data>
+  <data name="dial.sky-blue" xml:space="preserve"><value>Небесно-голубой</value></data>
+  <data name="dial.cream" xml:space="preserve"><value>Кремовый</value></data>
+  <data name="dial.slate" xml:space="preserve"><value>Сланцевый</value></data>
+  <data name="dial.noir" xml:space="preserve"><value>Нуар</value></data>
+  <data name="lume.red" xml:space="preserve"><value>Красный</value></data>
+  <data name="lume.amber" xml:space="preserve"><value>Янтарный</value></data>
+  <data name="lume.lavender" xml:space="preserve"><value>Лавандовый</value></data>
+  <data name="lume.rose" xml:space="preserve"><value>Розовый</value></data>
+  <data name="lume.seafoam" xml:space="preserve"><value>Морская пена</value></data>
+  <data name="lume.sky" xml:space="preserve"><value>Небесный</value></data>
+  <data name="lume.bgw9" xml:space="preserve"><value>BGW9</value></data>
+  <data name="lume.peach" xml:space="preserve"><value>Персиковый</value></data>
+  <data name="lume.tritium" xml:space="preserve"><value>Тритиевый зелёный</value></data>
+  <data name="lume.aqua" xml:space="preserve"><value>Аква</value></data>
+  <data name="lume.yellow" xml:space="preserve"><value>Жёлтый</value></data>
+  <data name="lume.lime" xml:space="preserve"><value>Лайм</value></data>
+  <data name="lume.ice-blue" xml:space="preserve"><value>Ледяной голубой</value></data>
+  <data name="lume.white" xml:space="preserve"><value>Белый</value></data>
+  <data name="display.background.match" xml:space="preserve"><value>Как у циферблата</value></data>
+  <data name="display.background.custom" xml:space="preserve"><value>Свой цвет</value></data>
+  <data name="section.numerals" xml:space="preserve"><value>Цифры</value></data>
+  <data name="numerals.hint" xml:space="preserve"><value>Шрифт для цифр часов и минут.</value></data>
+  <data name="font.panchang" xml:space="preserve"><value>Panchang</value></data>
+  <data name="font.clashdisplay" xml:space="preserve"><value>Clash Display</value></data>
+  <data name="font.satoshi" xml:space="preserve"><value>Satoshi</value></data>
+  <data name="font.melodrama" xml:space="preserve"><value>Melodrama</value></data>
+  <data name="font.klock" xml:space="preserve"><value>Klock</value></data>
+</root>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="app.title" xml:space="preserve"><value>Klock</value></data>
+  <data name="app.subtitle" xml:space="preserve"><value>一款不带文字的模拟时钟，为你的屏幕而生</value></data>
+  <data name="preview.caption" xml:space="preserve"><value>实时预览</value></data>
+  <data name="section.dial" xml:space="preserve"><value>表盘</value></data>
+  <data name="section.dial.hint" xml:space="preserve"><value>十六种精心调校的颜色，每种都有与之匹配的夜间外观。</value></data>
+  <data name="section.theme" xml:space="preserve"><value>主题</value></data>
+  <data name="section.lume" xml:space="preserve"><value>夜光</value></data>
+  <data name="section.lume.hint" xml:space="preserve"><value>天黑后指针和刻度发光的颜色。</value></data>
+  <data name="section.movement" xml:space="preserve"><value>机芯</value></data>
+  <data name="section.size" xml:space="preserve"><value>尺寸</value></data>
+  <data name="section.display" xml:space="preserve"><value>显示</value></data>
+  <data name="section.performance" xml:space="preserve"><value>性能</value></data>
+  <data name="section.burnin" xml:space="preserve"><value>防烧屏保护</value></data>
+  <data name="section.sound" xml:space="preserve"><value>声音</value></data>
+  <data name="section.language" xml:space="preserve"><value>语言</value></data>
+  <data name="section.about" xml:space="preserve"><value>关于</value></data>
+  <data name="theme.auto" xml:space="preserve"><value>自动</value></data>
+  <data name="theme.day" xml:space="preserve"><value>白天</value></data>
+  <data name="theme.night" xml:space="preserve"><value>夜晚</value></data>
+  <data name="theme.schedule" xml:space="preserve"><value>定时</value></data>
+  <data name="theme.auto.hint" xml:space="preserve"><value>跟随 Windows 的应用模式，模式变化时平滑切换。</value></data>
+  <data name="theme.day.hint" xml:space="preserve"><value>始终使用全彩的白天表盘。</value></data>
+  <data name="theme.night.hint" xml:space="preserve"><value>始终使用调暗的表盘和发光的夜光。</value></data>
+  <data name="theme.schedule.hint" xml:space="preserve"><value>在设定的时间在白天与夜晚之间切换。</value></data>
+  <data name="schedule.kind.custom" xml:space="preserve"><value>自定义时间</value></data>
+  <data name="schedule.kind.solar" xml:space="preserve"><value>日出与日落</value></data>
+  <data name="schedule.nightStarts" xml:space="preserve"><value>夜晚开始</value></data>
+  <data name="schedule.nightEnds" xml:space="preserve"><value>夜晚结束</value></data>
+  <data name="schedule.latitude" xml:space="preserve"><value>纬度</value></data>
+  <data name="schedule.longitude" xml:space="preserve"><value>经度</value></data>
+  <data name="schedule.solar.hint" xml:space="preserve"><value>请输入你的坐标。夜晚从日落持续到日出。没有坐标时，将使用自定义时间。</value></data>
+  <data name="movement.quartz" xml:space="preserve"><value>石英</value></data>
+  <data name="movement.mechanical" xml:space="preserve"><value>机械</value></data>
+  <data name="movement.digital" xml:space="preserve"><value>平滑</value></data>
+  <data name="movement.quartz.hint" xml:space="preserve"><value>每秒跳动一次，并像真正的石英秒针那样带有轻微的回弹。</value></data>
+  <data name="movement.mechanical.hint" xml:space="preserve"><value>每秒四次振动，灵动而细腻的扫秒。</value></data>
+  <data name="movement.digital.hint" xml:space="preserve"><value>完全连续的扫秒，没有任何停顿。</value></data>
+  <data name="size.classic" xml:space="preserve"><value>经典</value></data>
+  <data name="size.compact" xml:space="preserve"><value>紧凑</value></data>
+  <data name="display.monitors" xml:space="preserve"><value>在以下显示器上显示时钟</value></data>
+  <data name="display.all" xml:space="preserve"><value>所有显示器</value></data>
+  <data name="display.primary" xml:space="preserve"><value>仅主显示器</value></data>
+  <data name="display.selected" xml:space="preserve"><value>已选择</value></data>
+  <data name="display.displayN" xml:space="preserve"><value>显示器 {0}</value></data>
+  <data name="display.primarySuffix" xml:space="preserve"><value>（主）</value></data>
+  <data name="display.background" xml:space="preserve"><value>背景</value></data>
+  <data name="display.background.black" xml:space="preserve"><value>黑色</value></data>
+  <data name="display.background.hint" xml:space="preserve"><value>纯黑最适合 OLED 屏幕。</value></data>
+  <data name="display.offset" xml:space="preserve"><value>位置</value></data>
+  <data name="display.offsetX" xml:space="preserve"><value>水平</value></data>
+  <data name="display.offsetY" xml:space="preserve"><value>垂直</value></data>
+  <data name="display.reset" xml:space="preserve"><value>重置</value></data>
+  <data name="perf.fps" xml:space="preserve"><value>帧率上限</value></data>
+  <data name="perf.fps.auto" xml:space="preserve"><value>与显示器一致</value></data>
+  <data name="perf.fps.value" xml:space="preserve"><value>{0} 帧/秒</value></data>
+  <data name="perf.battery" xml:space="preserve"><value>使用电池时降低帧率</value></data>
+  <data name="perf.batteryFps" xml:space="preserve"><value>电池供电时的上限</value></data>
+  <data name="perf.gpu" xml:space="preserve"><value>图形适配器</value></data>
+  <data name="perf.gpu.auto" xml:space="preserve"><value>自动</value></data>
+  <data name="burnin.off" xml:space="preserve"><value>关闭</value></data>
+  <data name="burnin.standard" xml:space="preserve"><value>标准</value></data>
+  <data name="burnin.extended" xml:space="preserve"><value>增强</value></data>
+  <data name="burnin.note" xml:space="preserve"><value>时钟会在不易察觉的范围内缓缓漂移，高光也会缓慢“呼吸”，有助于保护 OLED 和 Mini-LED 屏幕。显示器自身的设置仍由你负责。</value></data>
+  <data name="sound.tick" xml:space="preserve"><value>播放轻柔的滴答声（石英与机械）</value></data>
+  <data name="sound.hint" xml:space="preserve"><value>默认关闭。除非你要求，屏幕保护程序保持静音。</value></data>
+  <data name="language.auto" xml:space="preserve"><value>系统语言</value></data>
+  <data name="language.hint" xml:space="preserve"><value>仅此设置界面会被翻译，时钟本身不含任何文字。</value></data>
+  <data name="about.version" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="about.update" xml:space="preserve"><value>检查更新</value></data>
+  <data name="about.update.checking" xml:space="preserve"><value>正在检查…</value></data>
+  <data name="about.update.latest" xml:space="preserve"><value>已是最新版本。</value></data>
+  <data name="about.update.available" xml:space="preserve"><value>版本 {0} 可供更新。</value></data>
+  <data name="about.update.download" xml:space="preserve"><value>下载</value></data>
+  <data name="about.update.failed" xml:space="preserve"><value>暂时无法检查更新。</value></data>
+  <data name="about.support" xml:space="preserve"><value>支持</value></data>
+  <data name="about.privacy" xml:space="preserve"><value>无遥测。检查更新只会获取一个小型公开文件，不会发送任何与你有关的信息。</value></data>
+  <data name="common.close" xml:space="preserve"><value>关闭</value></data>
+  <data name="dial.white" xml:space="preserve"><value>白色</value></data>
+  <data name="dial.turquoise" xml:space="preserve"><value>绿松石</value></data>
+  <data name="dial.glacier" xml:space="preserve"><value>冰川</value></data>
+  <data name="dial.ocean" xml:space="preserve"><value>海洋</value></data>
+  <data name="dial.tennis" xml:space="preserve"><value>网球</value></data>
+  <data name="dial.signal-blue" xml:space="preserve"><value>信号蓝</value></data>
+  <data name="dial.salmon" xml:space="preserve"><value>鲑鱼粉</value></data>
+  <data name="dial.yellow" xml:space="preserve"><value>黄色</value></data>
+  <data name="dial.beige" xml:space="preserve"><value>米色</value></data>
+  <data name="dial.pistachio" xml:space="preserve"><value>开心果</value></data>
+  <data name="dial.lavender" xml:space="preserve"><value>薰衣草</value></data>
+  <data name="dial.rose" xml:space="preserve"><value>玫瑰</value></data>
+  <data name="dial.sky-blue" xml:space="preserve"><value>天蓝</value></data>
+  <data name="dial.cream" xml:space="preserve"><value>奶油</value></data>
+  <data name="dial.slate" xml:space="preserve"><value>石板灰</value></data>
+  <data name="dial.noir" xml:space="preserve"><value>黑色</value></data>
+  <data name="lume.red" xml:space="preserve"><value>红色</value></data>
+  <data name="lume.amber" xml:space="preserve"><value>琥珀</value></data>
+  <data name="lume.lavender" xml:space="preserve"><value>薰衣草</value></data>
+  <data name="lume.rose" xml:space="preserve"><value>玫瑰</value></data>
+  <data name="lume.seafoam" xml:space="preserve"><value>海沫绿</value></data>
+  <data name="lume.sky" xml:space="preserve"><value>天空</value></data>
+  <data name="lume.bgw9" xml:space="preserve"><value>BGW9</value></data>
+  <data name="lume.peach" xml:space="preserve"><value>桃色</value></data>
+  <data name="lume.tritium" xml:space="preserve"><value>氚绿</value></data>
+  <data name="lume.aqua" xml:space="preserve"><value>水蓝</value></data>
+  <data name="lume.yellow" xml:space="preserve"><value>黄色</value></data>
+  <data name="lume.lime" xml:space="preserve"><value>青柠</value></data>
+  <data name="lume.ice-blue" xml:space="preserve"><value>冰蓝</value></data>
+  <data name="lume.white" xml:space="preserve"><value>白色</value></data>
+  <data name="display.background.match" xml:space="preserve"><value>与表盘一致</value></data>
+  <data name="display.background.custom" xml:space="preserve"><value>自定义颜色</value></data>
+  <data name="section.numerals" xml:space="preserve"><value>数字</value></data>
+  <data name="numerals.hint" xml:space="preserve"><value>小时与分钟数字所用的字体。</value></data>
+  <data name="font.panchang" xml:space="preserve"><value>Panchang</value></data>
+  <data name="font.clashdisplay" xml:space="preserve"><value>Clash Display</value></data>
+  <data name="font.satoshi" xml:space="preserve"><value>Satoshi</value></data>
+  <data name="font.melodrama" xml:space="preserve"><value>Melodrama</value></data>
+  <data name="font.klock" xml:space="preserve"><value>Klock</value></data>
+</root>

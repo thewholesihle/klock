@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="app.title" xml:space="preserve"><value>Klock</value></data>
+  <data name="app.subtitle" xml:space="preserve"><value>ساعة تناظرية بلا كلمات لشاشتك</value></data>
+  <data name="preview.caption" xml:space="preserve"><value>معاينة مباشرة</value></data>
+  <data name="section.dial" xml:space="preserve"><value>الميناء</value></data>
+  <data name="section.dial.hint" xml:space="preserve"><value>ستة عشر لونًا مضبوطًا بعناية، ولكل منها مظهر ليلي مطابق.</value></data>
+  <data name="section.theme" xml:space="preserve"><value>السمة</value></data>
+  <data name="section.lume" xml:space="preserve"><value>التوهج الليلي</value></data>
+  <data name="section.lume.hint" xml:space="preserve"><value>اللون الذي تتوهج به العقارب والعلامات بعد حلول الظلام.</value></data>
+  <data name="section.movement" xml:space="preserve"><value>الحركة</value></data>
+  <data name="section.size" xml:space="preserve"><value>الحجم</value></data>
+  <data name="section.display" xml:space="preserve"><value>العرض</value></data>
+  <data name="section.performance" xml:space="preserve"><value>الأداء</value></data>
+  <data name="section.burnin" xml:space="preserve"><value>الحماية من احتراق الشاشة</value></data>
+  <data name="section.sound" xml:space="preserve"><value>الصوت</value></data>
+  <data name="section.language" xml:space="preserve"><value>اللغة</value></data>
+  <data name="section.about" xml:space="preserve"><value>حول</value></data>
+  <data name="theme.auto" xml:space="preserve"><value>تلقائي</value></data>
+  <data name="theme.day" xml:space="preserve"><value>نهار</value></data>
+  <data name="theme.night" xml:space="preserve"><value>ليل</value></data>
+  <data name="theme.schedule" xml:space="preserve"><value>جدولة</value></data>
+  <data name="theme.auto.hint" xml:space="preserve"><value>يتبع وضع التطبيقات في Windows، ويتبدّل بسلاسة عند تغيّره.</value></data>
+  <data name="theme.day.hint" xml:space="preserve"><value>ميناء النهار الملوّن دائمًا.</value></data>
+  <data name="theme.night.hint" xml:space="preserve"><value>الميناء الخافت دائمًا مع توهج مضيء.</value></data>
+  <data name="theme.schedule.hint" xml:space="preserve"><value>يتبدّل بين النهار والليل في أوقات تحددها.</value></data>
+  <data name="schedule.kind.custom" xml:space="preserve"><value>أوقات مخصّصة</value></data>
+  <data name="schedule.kind.solar" xml:space="preserve"><value>الشروق والغروب</value></data>
+  <data name="schedule.nightStarts" xml:space="preserve"><value>بداية الليل</value></data>
+  <data name="schedule.nightEnds" xml:space="preserve"><value>نهاية الليل</value></data>
+  <data name="schedule.latitude" xml:space="preserve"><value>خط العرض</value></data>
+  <data name="schedule.longitude" xml:space="preserve"><value>خط الطول</value></data>
+  <data name="schedule.solar.hint" xml:space="preserve"><value>أدخل إحداثياتك. يمتد الليل من الغروب إلى الشروق. وبدون إحداثيات تُستخدم الأوقات المخصّصة.</value></data>
+  <data name="movement.quartz" xml:space="preserve"><value>كوارتز</value></data>
+  <data name="movement.mechanical" xml:space="preserve"><value>ميكانيكي</value></data>
+  <data name="movement.digital" xml:space="preserve"><value>انسيابي</value></data>
+  <data name="movement.quartz.hint" xml:space="preserve"><value>يتقدّم مرة كل ثانية، مع تجاوز طفيف كعقرب ثواني كوارتز حقيقي.</value></data>
+  <data name="movement.mechanical.hint" xml:space="preserve"><value>أربع نبضات في الثانية، حركة نابضة بالحياة ورقيقة.</value></data>
+  <data name="movement.digital.hint" xml:space="preserve"><value>حركة متصلة تمامًا دون أي تقطّع.</value></data>
+  <data name="size.classic" xml:space="preserve"><value>كلاسيكي</value></data>
+  <data name="size.compact" xml:space="preserve"><value>مدمج</value></data>
+  <data name="display.monitors" xml:space="preserve"><value>عرض الساعة على</value></data>
+  <data name="display.all" xml:space="preserve"><value>جميع الشاشات</value></data>
+  <data name="display.primary" xml:space="preserve"><value>الشاشة الرئيسية فقط</value></data>
+  <data name="display.selected" xml:space="preserve"><value>المحدّدة</value></data>
+  <data name="display.displayN" xml:space="preserve"><value>الشاشة {0}</value></data>
+  <data name="display.primarySuffix" xml:space="preserve"><value> (رئيسية)</value></data>
+  <data name="display.background" xml:space="preserve"><value>الخلفية</value></data>
+  <data name="display.background.black" xml:space="preserve"><value>أسود</value></data>
+  <data name="display.background.hint" xml:space="preserve"><value>الأسود الصافي هو الأفضل لشاشات OLED.</value></data>
+  <data name="display.offset" xml:space="preserve"><value>الموضع</value></data>
+  <data name="display.offsetX" xml:space="preserve"><value>أفقي</value></data>
+  <data name="display.offsetY" xml:space="preserve"><value>عمودي</value></data>
+  <data name="display.reset" xml:space="preserve"><value>إعادة ضبط</value></data>
+  <data name="perf.fps" xml:space="preserve"><value>حدّ معدل الإطارات</value></data>
+  <data name="perf.fps.auto" xml:space="preserve"><value>مطابقة الشاشة</value></data>
+  <data name="perf.fps.value" xml:space="preserve"><value>{0} إطار/ث</value></data>
+  <data name="perf.battery" xml:space="preserve"><value>خفض معدل الإطارات عند العمل على البطارية</value></data>
+  <data name="perf.batteryFps" xml:space="preserve"><value>حدّ البطارية</value></data>
+  <data name="perf.gpu" xml:space="preserve"><value>محوّل الرسومات</value></data>
+  <data name="perf.gpu.auto" xml:space="preserve"><value>تلقائي</value></data>
+  <data name="burnin.off" xml:space="preserve"><value>إيقاف</value></data>
+  <data name="burnin.standard" xml:space="preserve"><value>قياسي</value></data>
+  <data name="burnin.extended" xml:space="preserve"><value>موسّع</value></data>
+  <data name="burnin.note" xml:space="preserve"><value>تنزاح الساعة بشكل غير محسوس وتتنفّس لمعاتها ببطء، مما يساعد على حماية شاشات OLED وmini-LED. وتظل مسؤولًا عن إعدادات شاشتك نفسها.</value></data>
+  <data name="sound.tick" xml:space="preserve"><value>تشغيل نقرة خافتة (كوارتز وميكانيكي)</value></data>
+  <data name="sound.hint" xml:space="preserve"><value>متوقف افتراضيًا. شاشات التوقف صامتة ما لم تطلب غير ذلك.</value></data>
+  <data name="language.auto" xml:space="preserve"><value>لغة النظام</value></data>
+  <data name="language.hint" xml:space="preserve"><value>هذه الإعدادات وحدها هي المترجمة. أما الساعة نفسها فلا كلمات فيها.</value></data>
+  <data name="about.version" xml:space="preserve"><value>الإصدار {0}</value></data>
+  <data name="about.update" xml:space="preserve"><value>البحث عن تحديثات</value></data>
+  <data name="about.update.checking" xml:space="preserve"><value>جارٍ التحقق…</value></data>
+  <data name="about.update.latest" xml:space="preserve"><value>أنت على أحدث إصدار.</value></data>
+  <data name="about.update.available" xml:space="preserve"><value>الإصدار {0} متاح.</value></data>
+  <data name="about.update.download" xml:space="preserve"><value>تنزيل</value></data>
+  <data name="about.update.failed" xml:space="preserve"><value>تعذّر البحث عن تحديثات الآن.</value></data>
+  <data name="about.support" xml:space="preserve"><value>الدعم</value></data>
+  <data name="about.privacy" xml:space="preserve"><value>بلا قياس عن بُعد. يجلب البحث عن التحديثات ملفًا عامًا صغيرًا ولا يرسل أي شيء عنك.</value></data>
+  <data name="common.close" xml:space="preserve"><value>إغلاق</value></data>
+  <data name="dial.white" xml:space="preserve"><value>أبيض</value></data>
+  <data name="dial.turquoise" xml:space="preserve"><value>فيروزي</value></data>
+  <data name="dial.glacier" xml:space="preserve"><value>جليدي</value></data>
+  <data name="dial.ocean" xml:space="preserve"><value>محيطي</value></data>
+  <data name="dial.tennis" xml:space="preserve"><value>تنس</value></data>
+  <data name="dial.signal-blue" xml:space="preserve"><value>أزرق إشاري</value></data>
+  <data name="dial.salmon" xml:space="preserve"><value>سلموني</value></data>
+  <data name="dial.yellow" xml:space="preserve"><value>أصفر</value></data>
+  <data name="dial.beige" xml:space="preserve"><value>بيج</value></data>
+  <data name="dial.pistachio" xml:space="preserve"><value>فستقي</value></data>
+  <data name="dial.lavender" xml:space="preserve"><value>خزامى</value></data>
+  <data name="dial.rose" xml:space="preserve"><value>وردي</value></data>
+  <data name="dial.sky-blue" xml:space="preserve"><value>أزرق سماوي</value></data>
+  <data name="dial.cream" xml:space="preserve"><value>كريمي</value></data>
+  <data name="dial.slate" xml:space="preserve"><value>أردوازي</value></data>
+  <data name="dial.noir" xml:space="preserve"><value>نوار</value></data>
+  <data name="lume.red" xml:space="preserve"><value>أحمر</value></data>
+  <data name="lume.amber" xml:space="preserve"><value>كهرماني</value></data>
+  <data name="lume.lavender" xml:space="preserve"><value>خزامى</value></data>
+  <data name="lume.rose" xml:space="preserve"><value>وردي</value></data>
+  <data name="lume.seafoam" xml:space="preserve"><value>زبد البحر</value></data>
+  <data name="lume.sky" xml:space="preserve"><value>سماوي</value></data>
+  <data name="lume.bgw9" xml:space="preserve"><value>BGW9</value></data>
+  <data name="lume.peach" xml:space="preserve"><value>خوخي</value></data>
+  <data name="lume.tritium" xml:space="preserve"><value>أخضر التريتيوم</value></data>
+  <data name="lume.aqua" xml:space="preserve"><value>أكوا</value></data>
+  <data name="lume.yellow" xml:space="preserve"><value>أصفر</value></data>
+  <data name="lume.lime" xml:space="preserve"><value>ليموني</value></data>
+  <data name="lume.ice-blue" xml:space="preserve"><value>أزرق جليدي</value></data>
+  <data name="lume.white" xml:space="preserve"><value>أبيض</value></data>
+  <data name="display.background.match" xml:space="preserve"><value>مطابقة الميناء</value></data>
+  <data name="display.background.custom" xml:space="preserve"><value>لون مخصص</value></data>
+  <data name="section.numerals" xml:space="preserve"><value>الأرقام</value></data>
+  <data name="numerals.hint" xml:space="preserve"><value>الخط المستخدم لأرقام الساعات والدقائق.</value></data>
+  <data name="font.panchang" xml:space="preserve"><value>Panchang</value></data>
+  <data name="font.clashdisplay" xml:space="preserve"><value>Clash Display</value></data>
+  <data name="font.satoshi" xml:space="preserve"><value>Satoshi</value></data>
+  <data name="font.melodrama" xml:space="preserve"><value>Melodrama</value></data>
+  <data name="font.klock" xml:space="preserve"><value>Klock</value></data>
+</root>

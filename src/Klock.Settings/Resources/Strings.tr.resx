@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="app.title" xml:space="preserve"><value>Klock</value></data>
+  <data name="app.subtitle" xml:space="preserve"><value>Ekranınız için sözcüksüz bir analog saat</value></data>
+  <data name="preview.caption" xml:space="preserve"><value>Canlı önizleme</value></data>
+  <data name="section.dial" xml:space="preserve"><value>Kadran</value></data>
+  <data name="section.dial.hint" xml:space="preserve"><value>Özenle ayarlanmış on altı renk; her birinin eşleşen bir gece görünümü var.</value></data>
+  <data name="section.theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="section.lume" xml:space="preserve"><value>Gece parlaması</value></data>
+  <data name="section.lume.hint" xml:space="preserve"><value>Karanlıkta akrep, yelkovan ve işaretlerin parladığı renk.</value></data>
+  <data name="section.movement" xml:space="preserve"><value>Mekanizma</value></data>
+  <data name="section.size" xml:space="preserve"><value>Boyut</value></data>
+  <data name="section.display" xml:space="preserve"><value>Ekran</value></data>
+  <data name="section.performance" xml:space="preserve"><value>Performans</value></data>
+  <data name="section.burnin" xml:space="preserve"><value>Ekran yanması koruması</value></data>
+  <data name="section.sound" xml:space="preserve"><value>Ses</value></data>
+  <data name="section.language" xml:space="preserve"><value>Dil</value></data>
+  <data name="section.about" xml:space="preserve"><value>Hakkında</value></data>
+  <data name="theme.auto" xml:space="preserve"><value>Otomatik</value></data>
+  <data name="theme.day" xml:space="preserve"><value>Gündüz</value></data>
+  <data name="theme.night" xml:space="preserve"><value>Gece</value></data>
+  <data name="theme.schedule" xml:space="preserve"><value>Zamanlama</value></data>
+  <data name="theme.auto.hint" xml:space="preserve"><value>Windows uygulama modunu izler; mod değiştiğinde yumuşak biçimde geçiş yapar.</value></data>
+  <data name="theme.day.hint" xml:space="preserve"><value>Her zaman tam renkli gündüz kadranı.</value></data>
+  <data name="theme.night.hint" xml:space="preserve"><value>Her zaman parlayan ışıltılı, kısılmış kadran.</value></data>
+  <data name="theme.schedule.hint" xml:space="preserve"><value>Belirlediğiniz saatlerde gündüz ile gece arasında geçiş yapar.</value></data>
+  <data name="schedule.kind.custom" xml:space="preserve"><value>Özel saatler</value></data>
+  <data name="schedule.kind.solar" xml:space="preserve"><value>Gün doğumu ve batımı</value></data>
+  <data name="schedule.nightStarts" xml:space="preserve"><value>Gece başlangıcı</value></data>
+  <data name="schedule.nightEnds" xml:space="preserve"><value>Gece bitişi</value></data>
+  <data name="schedule.latitude" xml:space="preserve"><value>Enlem</value></data>
+  <data name="schedule.longitude" xml:space="preserve"><value>Boylam</value></data>
+  <data name="schedule.solar.hint" xml:space="preserve"><value>Koordinatlarınızı girin. Gece, gün batımından gün doğumuna kadar sürer. Koordinat yoksa özel saatler kullanılır.</value></data>
+  <data name="movement.quartz" xml:space="preserve"><value>Kuvars</value></data>
+  <data name="movement.mechanical" xml:space="preserve"><value>Mekanik</value></data>
+  <data name="movement.digital" xml:space="preserve"><value>Akıcı</value></data>
+  <data name="movement.quartz.hint" xml:space="preserve"><value>Saniyede bir kez atlar; gerçek bir kuvars saniye ibresi gibi küçük bir ileri taşma yapar.</value></data>
+  <data name="movement.mechanical.hint" xml:space="preserve"><value>Saniyede dört vuruş; canlı ama zarif bir akış.</value></data>
+  <data name="movement.digital.hint" xml:space="preserve"><value>Hiç basamaksız, tamamen sürekli bir akış.</value></data>
+  <data name="size.classic" xml:space="preserve"><value>Klasik</value></data>
+  <data name="size.compact" xml:space="preserve"><value>Kompakt</value></data>
+  <data name="display.monitors" xml:space="preserve"><value>Saati şurada göster</value></data>
+  <data name="display.all" xml:space="preserve"><value>Tüm ekranlar</value></data>
+  <data name="display.primary" xml:space="preserve"><value>Yalnızca birincil</value></data>
+  <data name="display.selected" xml:space="preserve"><value>Seçilenler</value></data>
+  <data name="display.displayN" xml:space="preserve"><value>Ekran {0}</value></data>
+  <data name="display.primarySuffix" xml:space="preserve"><value> (birincil)</value></data>
+  <data name="display.background" xml:space="preserve"><value>Arka plan</value></data>
+  <data name="display.background.black" xml:space="preserve"><value>Siyah</value></data>
+  <data name="display.background.hint" xml:space="preserve"><value>Saf siyah OLED ekranlar için en iyisidir.</value></data>
+  <data name="display.offset" xml:space="preserve"><value>Konum</value></data>
+  <data name="display.offsetX" xml:space="preserve"><value>Yatay</value></data>
+  <data name="display.offsetY" xml:space="preserve"><value>Dikey</value></data>
+  <data name="display.reset" xml:space="preserve"><value>Sıfırla</value></data>
+  <data name="perf.fps" xml:space="preserve"><value>Kare hızı sınırı</value></data>
+  <data name="perf.fps.auto" xml:space="preserve"><value>Ekrana uydur</value></data>
+  <data name="perf.fps.value" xml:space="preserve"><value>{0} kare/sn</value></data>
+  <data name="perf.battery" xml:space="preserve"><value>Pilde kare hızını düşür</value></data>
+  <data name="perf.batteryFps" xml:space="preserve"><value>Pil sınırı</value></data>
+  <data name="perf.gpu" xml:space="preserve"><value>Grafik bağdaştırıcısı</value></data>
+  <data name="perf.gpu.auto" xml:space="preserve"><value>Otomatik</value></data>
+  <data name="burnin.off" xml:space="preserve"><value>Kapalı</value></data>
+  <data name="burnin.standard" xml:space="preserve"><value>Standart</value></data>
+  <data name="burnin.extended" xml:space="preserve"><value>Gelişmiş</value></data>
+  <data name="burnin.note" xml:space="preserve"><value>Saat fark edilmeyecek kadar yavaş kayar ve parlak vurguları yavaşça “nefes alır”; bu, OLED ve mini-LED panelleri korumaya yardımcı olur. Ekranınızın kendi ayarlarından siz sorumlusunuz.</value></data>
+  <data name="sound.tick" xml:space="preserve"><value>Yumuşak bir tik sesi çal (Kuvars ve Mekanik)</value></data>
+  <data name="sound.hint" xml:space="preserve"><value>Varsayılan olarak kapalı. Siz istemedikçe ekran koruyucular sessizdir.</value></data>
+  <data name="language.auto" xml:space="preserve"><value>Sistem dili</value></data>
+  <data name="language.hint" xml:space="preserve"><value>Yalnızca bu ayarlar çevrilmiştir. Saatin kendisinde söz yoktur.</value></data>
+  <data name="about.version" xml:space="preserve"><value>Sürüm {0}</value></data>
+  <data name="about.update" xml:space="preserve"><value>Güncellemeleri denetle</value></data>
+  <data name="about.update.checking" xml:space="preserve"><value>Denetleniyor…</value></data>
+  <data name="about.update.latest" xml:space="preserve"><value>Güncelsiniz.</value></data>
+  <data name="about.update.available" xml:space="preserve"><value>{0} sürümü mevcut.</value></data>
+  <data name="about.update.download" xml:space="preserve"><value>İndir</value></data>
+  <data name="about.update.failed" xml:space="preserve"><value>Şu anda güncellemeler denetlenemiyor.</value></data>
+  <data name="about.support" xml:space="preserve"><value>Destek</value></data>
+  <data name="about.privacy" xml:space="preserve"><value>Telemetri yok. Güncelleme denetimi küçük bir herkese açık dosya indirir ve sizinle ilgili hiçbir şey göndermez.</value></data>
+  <data name="common.close" xml:space="preserve"><value>Kapat</value></data>
+  <data name="dial.white" xml:space="preserve"><value>Beyaz</value></data>
+  <data name="dial.turquoise" xml:space="preserve"><value>Turkuaz</value></data>
+  <data name="dial.glacier" xml:space="preserve"><value>Buzul</value></data>
+  <data name="dial.ocean" xml:space="preserve"><value>Okyanus</value></data>
+  <data name="dial.tennis" xml:space="preserve"><value>Tenis</value></data>
+  <data name="dial.signal-blue" xml:space="preserve"><value>Sinyal mavisi</value></data>
+  <data name="dial.salmon" xml:space="preserve"><value>Somon</value></data>
+  <data name="dial.yellow" xml:space="preserve"><value>Sarı</value></data>
+  <data name="dial.beige" xml:space="preserve"><value>Bej</value></data>
+  <data name="dial.pistachio" xml:space="preserve"><value>Antep fıstığı</value></data>
+  <data name="dial.lavender" xml:space="preserve"><value>Lavanta</value></data>
+  <data name="dial.rose" xml:space="preserve"><value>Gül</value></data>
+  <data name="dial.sky-blue" xml:space="preserve"><value>Gök mavisi</value></data>
+  <data name="dial.cream" xml:space="preserve"><value>Krem</value></data>
+  <data name="dial.slate" xml:space="preserve"><value>Arduvaz</value></data>
+  <data name="dial.noir" xml:space="preserve"><value>Noir</value></data>
+  <data name="lume.red" xml:space="preserve"><value>Kırmızı</value></data>
+  <data name="lume.amber" xml:space="preserve"><value>Kehribar</value></data>
+  <data name="lume.lavender" xml:space="preserve"><value>Lavanta</value></data>
+  <data name="lume.rose" xml:space="preserve"><value>Gül</value></data>
+  <data name="lume.seafoam" xml:space="preserve"><value>Deniz köpüğü</value></data>
+  <data name="lume.sky" xml:space="preserve"><value>Gökyüzü</value></data>
+  <data name="lume.bgw9" xml:space="preserve"><value>BGW9</value></data>
+  <data name="lume.peach" xml:space="preserve"><value>Şeftali</value></data>
+  <data name="lume.tritium" xml:space="preserve"><value>Trityum yeşili</value></data>
+  <data name="lume.aqua" xml:space="preserve"><value>Aqua</value></data>
+  <data name="lume.yellow" xml:space="preserve"><value>Sarı</value></data>
+  <data name="lume.lime" xml:space="preserve"><value>Misket limonu</value></data>
+  <data name="lume.ice-blue" xml:space="preserve"><value>Buz mavisi</value></data>
+  <data name="lume.white" xml:space="preserve"><value>Beyaz</value></data>
+  <data name="display.background.match" xml:space="preserve"><value>Kadranla aynı</value></data>
+  <data name="display.background.custom" xml:space="preserve"><value>Özel renk</value></data>
+  <data name="section.numerals" xml:space="preserve"><value>Rakamlar</value></data>
+  <data name="numerals.hint" xml:space="preserve"><value>Saat ve dakika rakamlarının yazı tipi.</value></data>
+  <data name="font.panchang" xml:space="preserve"><value>Panchang</value></data>
+  <data name="font.clashdisplay" xml:space="preserve"><value>Clash Display</value></data>
+  <data name="font.satoshi" xml:space="preserve"><value>Satoshi</value></data>
+  <data name="font.melodrama" xml:space="preserve"><value>Melodrama</value></data>
+  <data name="font.klock" xml:space="preserve"><value>Klock</value></data>
+</root>

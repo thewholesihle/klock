@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="app.title" xml:space="preserve"><value>Klock</value></data>
+  <data name="app.subtitle" xml:space="preserve"><value>Une horloge analogique sans mots pour votre écran</value></data>
+  <data name="preview.caption" xml:space="preserve"><value>Aperçu en direct</value></data>
+  <data name="section.dial" xml:space="preserve"><value>Cadran</value></data>
+  <data name="section.dial.hint" xml:space="preserve"><value>Seize couleurs soigneusement réglées, chacune avec son aspect nocturne.</value></data>
+  <data name="section.theme" xml:space="preserve"><value>Thème</value></data>
+  <data name="section.lume" xml:space="preserve"><value>Luminescence nocturne</value></data>
+  <data name="section.lume.hint" xml:space="preserve"><value>La couleur que les aiguilles et les index émettent dans l&apos;obscurité.</value></data>
+  <data name="section.movement" xml:space="preserve"><value>Mouvement</value></data>
+  <data name="section.size" xml:space="preserve"><value>Taille</value></data>
+  <data name="section.display" xml:space="preserve"><value>Affichage</value></data>
+  <data name="section.performance" xml:space="preserve"><value>Performances</value></data>
+  <data name="section.burnin" xml:space="preserve"><value>Protection contre la rémanence</value></data>
+  <data name="section.sound" xml:space="preserve"><value>Son</value></data>
+  <data name="section.language" xml:space="preserve"><value>Langue</value></data>
+  <data name="section.about" xml:space="preserve"><value>À propos</value></data>
+  <data name="theme.auto" xml:space="preserve"><value>Auto</value></data>
+  <data name="theme.day" xml:space="preserve"><value>Jour</value></data>
+  <data name="theme.night" xml:space="preserve"><value>Nuit</value></data>
+  <data name="theme.schedule" xml:space="preserve"><value>Horaire</value></data>
+  <data name="theme.auto.hint" xml:space="preserve"><value>Suit le mode d&apos;application de Windows et change en douceur lorsqu&apos;il évolue.</value></data>
+  <data name="theme.day.hint" xml:space="preserve"><value>Toujours le cadran de jour en couleurs.</value></data>
+  <data name="theme.night.hint" xml:space="preserve"><value>Toujours le cadran tamisé à la luminescence éclatante.</value></data>
+  <data name="theme.schedule.hint" xml:space="preserve"><value>Alterne entre jour et nuit à des heures définies.</value></data>
+  <data name="schedule.kind.custom" xml:space="preserve"><value>Heures personnalisées</value></data>
+  <data name="schedule.kind.solar" xml:space="preserve"><value>Lever et coucher du soleil</value></data>
+  <data name="schedule.nightStarts" xml:space="preserve"><value>Début de la nuit</value></data>
+  <data name="schedule.nightEnds" xml:space="preserve"><value>Fin de la nuit</value></data>
+  <data name="schedule.latitude" xml:space="preserve"><value>Latitude</value></data>
+  <data name="schedule.longitude" xml:space="preserve"><value>Longitude</value></data>
+  <data name="schedule.solar.hint" xml:space="preserve"><value>Saisissez vos coordonnées. La nuit s&apos;étend du coucher au lever du soleil. Sans coordonnées, les heures personnalisées sont utilisées.</value></data>
+  <data name="movement.quartz" xml:space="preserve"><value>Quartz</value></data>
+  <data name="movement.mechanical" xml:space="preserve"><value>Mécanique</value></data>
+  <data name="movement.digital" xml:space="preserve"><value>Fluide</value></data>
+  <data name="movement.quartz.hint" xml:space="preserve"><value>Avance d&apos;un pas par seconde, avec un léger dépassement comme une vraie trotteuse à quartz.</value></data>
+  <data name="movement.mechanical.hint" xml:space="preserve"><value>Quatre battements par seconde, un balayage vif et délicat.</value></data>
+  <data name="movement.digital.hint" xml:space="preserve"><value>Un balayage parfaitement continu, sans à-coups.</value></data>
+  <data name="size.classic" xml:space="preserve"><value>Classique</value></data>
+  <data name="size.compact" xml:space="preserve"><value>Compact</value></data>
+  <data name="display.monitors" xml:space="preserve"><value>Afficher l&apos;horloge sur</value></data>
+  <data name="display.all" xml:space="preserve"><value>Tous les écrans</value></data>
+  <data name="display.primary" xml:space="preserve"><value>Écran principal uniquement</value></data>
+  <data name="display.selected" xml:space="preserve"><value>Sélection</value></data>
+  <data name="display.displayN" xml:space="preserve"><value>Écran {0}</value></data>
+  <data name="display.primarySuffix" xml:space="preserve"><value> (principal)</value></data>
+  <data name="display.background" xml:space="preserve"><value>Arrière-plan</value></data>
+  <data name="display.background.black" xml:space="preserve"><value>Noir</value></data>
+  <data name="display.background.hint" xml:space="preserve"><value>Le noir pur convient le mieux aux écrans OLED.</value></data>
+  <data name="display.offset" xml:space="preserve"><value>Position</value></data>
+  <data name="display.offsetX" xml:space="preserve"><value>Horizontal</value></data>
+  <data name="display.offsetY" xml:space="preserve"><value>Vertical</value></data>
+  <data name="display.reset" xml:space="preserve"><value>Réinitialiser</value></data>
+  <data name="perf.fps" xml:space="preserve"><value>Limite de fréquence d&apos;images</value></data>
+  <data name="perf.fps.auto" xml:space="preserve"><value>Selon l&apos;écran</value></data>
+  <data name="perf.fps.value" xml:space="preserve"><value>{0} i/s</value></data>
+  <data name="perf.battery" xml:space="preserve"><value>Réduire la fréquence d&apos;images sur batterie</value></data>
+  <data name="perf.batteryFps" xml:space="preserve"><value>Limite sur batterie</value></data>
+  <data name="perf.gpu" xml:space="preserve"><value>Carte graphique</value></data>
+  <data name="perf.gpu.auto" xml:space="preserve"><value>Automatique</value></data>
+  <data name="burnin.off" xml:space="preserve"><value>Désactivée</value></data>
+  <data name="burnin.standard" xml:space="preserve"><value>Standard</value></data>
+  <data name="burnin.extended" xml:space="preserve"><value>Étendue</value></data>
+  <data name="burnin.note" xml:space="preserve"><value>L&apos;horloge dérive de façon imperceptible et ses reflets respirent lentement, ce qui aide à protéger les écrans OLED et mini-LED. Vous restez responsable des réglages de votre écran.</value></data>
+  <data name="sound.tick" xml:space="preserve"><value>Émettre un tic discret (Quartz et Mécanique)</value></data>
+  <data name="sound.hint" xml:space="preserve"><value>Désactivé par défaut. Un écran de veille reste silencieux, sauf si vous le demandez.</value></data>
+  <data name="language.auto" xml:space="preserve"><value>Langue du système</value></data>
+  <data name="language.hint" xml:space="preserve"><value>Seuls ces réglages sont traduits. L&apos;horloge elle-même ne comporte aucun mot.</value></data>
+  <data name="about.version" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="about.update" xml:space="preserve"><value>Rechercher des mises à jour</value></data>
+  <data name="about.update.checking" xml:space="preserve"><value>Vérification…</value></data>
+  <data name="about.update.latest" xml:space="preserve"><value>Vous êtes à jour.</value></data>
+  <data name="about.update.available" xml:space="preserve"><value>La version {0} est disponible.</value></data>
+  <data name="about.update.download" xml:space="preserve"><value>Télécharger</value></data>
+  <data name="about.update.failed" xml:space="preserve"><value>Impossible de rechercher des mises à jour pour le moment.</value></data>
+  <data name="about.support" xml:space="preserve"><value>Assistance</value></data>
+  <data name="about.privacy" xml:space="preserve"><value>Aucune télémétrie. La recherche de mises à jour télécharge un petit fichier public et n&apos;envoie rien vous concernant.</value></data>
+  <data name="common.close" xml:space="preserve"><value>Fermer</value></data>
+  <data name="dial.white" xml:space="preserve"><value>Blanc</value></data>
+  <data name="dial.turquoise" xml:space="preserve"><value>Turquoise</value></data>
+  <data name="dial.glacier" xml:space="preserve"><value>Glacier</value></data>
+  <data name="dial.ocean" xml:space="preserve"><value>Océan</value></data>
+  <data name="dial.tennis" xml:space="preserve"><value>Tennis</value></data>
+  <data name="dial.signal-blue" xml:space="preserve"><value>Bleu signal</value></data>
+  <data name="dial.salmon" xml:space="preserve"><value>Saumon</value></data>
+  <data name="dial.yellow" xml:space="preserve"><value>Jaune</value></data>
+  <data name="dial.beige" xml:space="preserve"><value>Beige</value></data>
+  <data name="dial.pistachio" xml:space="preserve"><value>Pistache</value></data>
+  <data name="dial.lavender" xml:space="preserve"><value>Lavande</value></data>
+  <data name="dial.rose" xml:space="preserve"><value>Rose</value></data>
+  <data name="dial.sky-blue" xml:space="preserve"><value>Bleu ciel</value></data>
+  <data name="dial.cream" xml:space="preserve"><value>Crème</value></data>
+  <data name="dial.slate" xml:space="preserve"><value>Ardoise</value></data>
+  <data name="dial.noir" xml:space="preserve"><value>Noir</value></data>
+  <data name="lume.red" xml:space="preserve"><value>Rouge</value></data>
+  <data name="lume.amber" xml:space="preserve"><value>Ambre</value></data>
+  <data name="lume.lavender" xml:space="preserve"><value>Lavande</value></data>
+  <data name="lume.rose" xml:space="preserve"><value>Rose</value></data>
+  <data name="lume.seafoam" xml:space="preserve"><value>Écume</value></data>
+  <data name="lume.sky" xml:space="preserve"><value>Ciel</value></data>
+  <data name="lume.bgw9" xml:space="preserve"><value>BGW9</value></data>
+  <data name="lume.peach" xml:space="preserve"><value>Pêche</value></data>
+  <data name="lume.tritium" xml:space="preserve"><value>Vert tritium</value></data>
+  <data name="lume.aqua" xml:space="preserve"><value>Aqua</value></data>
+  <data name="lume.yellow" xml:space="preserve"><value>Jaune</value></data>
+  <data name="lume.lime" xml:space="preserve"><value>Citron vert</value></data>
+  <data name="lume.ice-blue" xml:space="preserve"><value>Bleu glacé</value></data>
+  <data name="lume.white" xml:space="preserve"><value>Blanc</value></data>
+  <data name="display.background.match" xml:space="preserve"><value>Couleur du cadran</value></data>
+  <data name="display.background.custom" xml:space="preserve"><value>Couleur personnalisée</value></data>
+  <data name="section.numerals" xml:space="preserve"><value>Chiffres</value></data>
+  <data name="numerals.hint" xml:space="preserve"><value>La police des chiffres des heures et des minutes.</value></data>
+  <data name="font.panchang" xml:space="preserve"><value>Panchang</value></data>
+  <data name="font.clashdisplay" xml:space="preserve"><value>Clash Display</value></data>
+  <data name="font.satoshi" xml:space="preserve"><value>Satoshi</value></data>
+  <data name="font.melodrama" xml:space="preserve"><value>Melodrama</value></data>
+  <data name="font.klock" xml:space="preserve"><value>Klock</value></data>
+</root>

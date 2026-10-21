@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klock — The Quiet Analog Clock Screensaver For Windows</title>
+  <meta name="description" content="A wordless analog clock screensaver for Windows 10 and 11. Sixteen dials, glowing lume, three movements.">
+  <meta name="theme-color" content="#101318">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preload" href="fonts/Satoshi-Black.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Klock — The Quiet Analog Clock Screensaver For Windows">
+  <meta property="og:description" content="Sixteen dials, glowing lume, three movements. For Windows 10 and 11.">
+  <meta property="og:image" content="img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <a class="brand" href="#top" aria-label="Klock home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 16V7.5M16 16l6 3.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span>klock</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#try">Try it</a>
+      <a href="#make">Make it yours</a>
+    </nav>
+    <a class="btn btn-lume btn-sm" href="#download">Download</a>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================ HERO -->
+    <section class="hero" id="top" data-bg="dusk" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker">Screensaver for Windows 10 and 11</p>
+        <h1 id="hero-title">Time,<br>quietly.</h1>
+        <p class="hero-sub">A full-screen analog clock with no words, no widgets and no noise.</p>
+        <div class="hero-cta">
+          <a class="btn btn-lume" href="#download">Download Klock</a>
+          <a class="btn btn-ghost" href="#try">Try it in your browser</a>
+        </div>
+      </div>
+      <div class="hero-clock">
+        <canvas id="clock-hero" role="img" aria-label="Analog clock with glowing hands"></canvas>
+      </div>
+      <div class="ruler" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============================================================ FEATURES -->
+    <section class="features" id="features" data-bg="paper" aria-labelledby="feat-title">
+      <div class="wrap">
+        <p class="kicker dark">What it does</p>
+        <h2 class="h2" id="feat-title">Everything a clock needs. Nothing it doesn&rsquo;t.</h2>
+
+        <div class="bento">
+          <article class="tile tile-dials">
+            <h3>16 dials</h3>
+            <p>Hand-tuned colours that fill the whole screen, each with a matching night look.</p>
+            <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="tile tile-move">
+            <h3>Three movements</h3>
+            <ul class="plain">
+              <li><b>Quartz</b> ticks once a second.</li>
+              <li><b>Mechanical</b> swings and settles.</li>
+              <li><b>Smooth</b> glides without a break.</li>
+            </ul>
+          </article>
+
+          <article class="tile tile-lume">
+            <h3>Night lume</h3>
+            <p>Hands and indices glow in one of 14 colours after dark.</p>
+            <div class="glow" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="tile tile-burn">
+            <h3>OLED-safe</h3>
+            <p>The whole face drifts by a few pixels so nothing burns in.</p>
+          </article>
+
+          <article class="tile tile-mon">
+            <h3>Every monitor</h3>
+            <p>One clock per display, in sync. Pauses when the display sleeps and slows on battery.</p>
+          </article>
+
+          <article class="tile tile-lang">
+            <h3>10 languages</h3>
+            <p>Including right-to-left. No account, no telemetry.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ HOW -->
+    <section class="how" id="how" data-bg="paper" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 class="h2" id="how-title">Three steps. No account.</h2>
+        <ol class="steps">
+          <li><span class="num">1</span><h3>Install</h3><p>Run the installer. It places the screensaver where Windows looks for it.</p></li>
+          <li><span class="num">2</span><h3>Pick your look</h3><p>Open Settings from the Screen Saver dialog. Choose a dial, a movement and a typeface.</p></li>
+          <li><span class="num">3</span><h3>Leave it on</h3><p>Klock keeps exact time, and pauses when the display is off.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================ TRY -->
+    <section class="try" id="try" data-bg="mist" aria-labelledby="try-title">
+      <div class="wrap try-grid">
+        <div class="screen"><canvas id="clock-main" role="img" aria-label="Analog clock"></canvas></div>
+        <div class="try-panel">
+          <p class="kicker dark">Try it</p>
+          <h2 class="h2" id="try-title">This is the real thing, in your browser.</h2>
+          <p class="body">Every hand position is a pure function of the time. Change the look below and the screensaver does exactly the same.</p>
+
+          <div class="ui-card" aria-label="Try the settings">
+            <div class="swatches" id="dial-swatches" role="radiogroup" aria-label="Dial colour"></div>
+            <div class="ui-row"><span>Theme</span><div class="segmented" id="theme-seg" role="radiogroup" aria-label="Theme"></div></div>
+            <div class="ui-row"><span>Movement</span><div class="segmented" id="move-seg" role="radiogroup" aria-label="Movement"></div></div>
+            <div class="ui-row"><span>Numerals</span><div class="segmented" id="font-seg" role="radiogroup" aria-label="Numeral typeface"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ MAKE IT YOURS -->
+    <section class="make" id="make" data-bg="bone" aria-labelledby="make-title">
+      <div class="wrap">
+        <h2 class="h2" id="make-title">Make it yours.</h2>
+        <div class="shots">
+          <figure>
+            <img src="img/day.jpg" width="1920" height="1080" loading="lazy" alt="Klock&rsquo;s Glacier dial in daylight: pale blue-grey with dark teal numerals and white pill indices.">
+            <figcaption><b>Dials</b> Sixteen colours, one for every desk.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/night.jpg" width="1920" height="1080" loading="lazy" alt="Klock&rsquo;s Noir dial at night with every numeral, index and hand glowing teal-white.">
+            <figcaption><b>Lume</b> After dark, <a href="#try" data-night>see it glow</a>.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/warm.jpg" width="1920" height="1080" loading="lazy" alt="Klock&rsquo;s Beige dial with Clash Display numerals.">
+            <figcaption><b>Typefaces</b> Panchang, Clash Display, Satoshi or Melodrama.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ DOWNLOAD -->
+    <section class="get" id="download" data-bg="dusk" aria-labelledby="dl-title">
+      <div class="wrap get-inner">
+        <h2 class="h2 light" id="dl-title">Give your screen something calm to do.</h2>
+        <p class="body light">Klock 0.1.0 preview for Windows 10 (1809+) and Windows 11. It isn&rsquo;t code-signed yet, so SmartScreen may ask you to confirm.</p>
+        <div class="hero-cta">
+          <a class="btn btn-lume" href="https://github.com/OWNER/klock/releases/latest">Windows x64 <small>93 MB</small></a>
+          <a class="btn btn-ghost" href="https://github.com/OWNER/klock/releases/latest">Windows ARM64 <small>86 MB</small></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-bg="dusk">
+    <div class="wrap foot">
+      <a class="brand" href="#top" aria-label="Klock home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 16V7.5M16 16l6 3.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+        <span>klock</span>
+      </a>
+      <nav aria-label="Footer">
+        <a href="#features">Features</a><a href="#how">How it works</a><a href="#try">Try it</a><a href="#download">Download</a><a href="fonts/Satoshi-FFL.txt">Font licence</a>
+      </nav>
+      <p class="foot-fine">Typeset in Satoshi. Clock numerals in Panchang, Clash Display, Satoshi and Melodrama, by Indian Type Foundry (Fontshare), used under the ITF Free Font License.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿bin/
+obj/
+*.user
+.vs/
+dist/
+*.pfx
+.claude/
+
+# Typeface files (ITF Free Font License forbids redistributing them). Keep the licence texts.
+assets/fonts/*.otf
+assets/fonts/*.ttf
+assets/fonts/*.woff
+assets/fonts/*.woff2
+website/fonts/*.otf
+website/fonts/*.ttf
+website/fonts/*.woff
+website/fonts/*.woff2

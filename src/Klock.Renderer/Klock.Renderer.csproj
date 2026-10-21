@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Klock.Core\Klock.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vortice.Direct2D1" Version="3.8.3" />
+    <PackageReference Include="Vortice.Direct3D11" Version="3.8.3" />
+    <PackageReference Include="Vortice.DXGI" Version="3.8.3" />
+  </ItemGroup>
+
+  <!-- Numeral fonts (ITF Free Font License): embedded UNMODIFIED and loaded from memory by DirectWrite.
+       The files are never subsetted, converted or extracted. If they are absent the build still succeeds and
+       the renderer falls back to its built-in digit face. -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\assets\fonts\Panchang-Extrabold.otf;..\..\assets\fonts\ClashDisplay-Semibold.otf;..\..\assets\fonts\Satoshi-Black.otf;..\..\assets\fonts\Melodrama-Bold.otf" LogicalName="Klock.Fonts.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
+
