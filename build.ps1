@@ -131,7 +131,7 @@ foreach ($a in $Arch) {
 Step 'Update manifest'
 # Attach this file to the GitHub release; the app reads it from releases/latest/download/latest.json.
 $repo = (Select-String -Path (Join-Path $root 'src\Klock.Core\AppInfo.cs') -Pattern 'GitHubRepo = "([^"]+)"').Matches[0].Groups[1].Value
-[ordered]@{ version = $Version; url = "https://github.com/$repo/releases/tag/v$Version"; notes = "Klock $Version" } |
+[ordered]@{ version = $Version; url = "https://github.com/thewholesihle/releases/tag/v$Version"; notes = "Klock $Version" } |
     ConvertTo-Json | Set-Content (Join-Path $dist 'latest.json') -Encoding utf8
 
 Step 'Done'
